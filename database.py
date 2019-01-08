@@ -9,6 +9,6 @@ with connection:
     cursor = connection.cursor()
     image_names = os.listdir("data")
     for image_name in image_names:
-        data = (image_name, "", 0)
+        data = ("data/" + image_name, "", 0)
         cursor.execute(sql, data)
 
