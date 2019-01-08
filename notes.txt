@@ -1,0 +1,39 @@
+CREATE TABLE IF NOT EXISTS faces (
+                    id integer PRIMARY KEY,
+                    name text NOT NULL,
+                    emotions text,
+                    count integer NOT NULL
+                );
+
+DELETE FROM faces;  // clear table
+
+INSERT INTO faces (name, emotions, count) VALUES ('data/a1.jpg', '', 0);
+
+anger       1	>:/	•`_´•
+contempt    2	;)
+disgust     3	x(
+fear        4	:0
+joy         5	:)
+neutral     6	:|
+sadness     7	:(
+surprise    8	:o
+OTHER       9	:
+
+slovak			svk
+vychodnar		vch
+english			eng
+castellano		cas
+andalu			and
+viva mexico		mex
+portugues		por
+cubaneo			cub
+ascii art		art
+
+
+SERVER
+
+start/restart nginx
+    sudo /etc/init.d/nginx restart
+
+start server
+    gunicorn server:app
