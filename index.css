@@ -37,11 +37,19 @@ img {
 
 
 /* Custom default button */
-.btn-secondary,
+
 .btn-secondary:hover,
 .btn-secondary:focus {
+  color: #222 !important;
+  background-color: #ffbf00 !important;
+}
+.btn-secondary:active {
+  color: #fff !important;
+  background-color: #ffbf00 !important;
+}
+.btn-secondary {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
   background-color: #fff;
 }
 
@@ -52,7 +60,7 @@ html,
 body {
   height: 100%;
   /*background-image: linear-gradient(100deg, #c0392b, #8e44ad);*/
-  background-image: linear-gradient(-80deg, #cb356b, #bd3f32);
+  background-image: linear-gradient(-80deg, #cb356b, #c63a2a);
   /*background-color: #a9a9a9;*/
 }
 body {
@@ -136,7 +144,8 @@ body {
   margin-left: -40px;
 }
 .intro {
-  border: 3px solid #ffbf00;
+  border: 4px solid #ffbf00;
+  border-radius: .25rem;
   margin: 40px auto;
   /*top right bottom left*/
   padding: 2rem .2rem 1rem .2rem;
