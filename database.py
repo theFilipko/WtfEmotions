@@ -1,7 +1,7 @@
 import sqlite3
 import os
 
-
+# import data from file into database
 connection = sqlite3.connect("wtfemotions.db")
 sql = ''' INSERT INTO faces (name,emotions,count)
               VALUES(?,?,?) '''
