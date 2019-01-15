@@ -3,6 +3,7 @@ import random
 import json
 import time
 import os
+import sys
 import config
 from datetime import datetime
 from flask import Flask, request
@@ -22,7 +23,7 @@ def log(text, topic="Server"):
         os.getppid(),
         topic,
         text
-    ))
+    ), file=sys.stdout)
 
 
 def create_connection(database="wtfemotions.db"):
