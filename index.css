@@ -112,14 +112,6 @@ body {
   /*border-bottom-color: #fff;*/
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
 
 
 /*
@@ -168,7 +160,13 @@ footer p {
 }
 
 
-@media (max-width: 48em) {
+@media (max-width: 798px) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
   .image {
     max-height: 300px;
     height: 300px;
@@ -183,7 +181,7 @@ footer p {
   }
 }
 
-@media (max-width: 34em) {
+@media (max-width: 598px) {
   .image {
     max-height: 240px;
     height: 240px;
@@ -204,7 +202,7 @@ footer p {
   }
 }
 
-@media (max-width: 22em) {
+@media (max-width: 398px) {
   .image {
     max-height: 200px;
     height: 200px;
