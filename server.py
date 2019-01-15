@@ -153,7 +153,7 @@ class Face(Resource):
         return data, 200
 
 
-api.add_resource(Face, '/')
+api.add_resource(Face, '/face')
 
 if __name__ == '__main__':
     app.run()

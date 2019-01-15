@@ -1,7 +1,7 @@
 // window.onload = httpGetImgAsync();
 
 var faceId = 0;
-var apiIP = "http://147.232.205.10:8000/";
+var apiIP = "http://147.232.205.10:80/face";
 
 function start(element) {
   element.classList.add("hidden");
