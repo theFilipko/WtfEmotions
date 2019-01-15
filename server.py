@@ -23,7 +23,7 @@ def log(text, topic="Server"):
         os.getppid(),
         topic,
         text
-    ), file=sys.stdout)
+    ), flush=True)
 
 
 def create_connection(database="wtfemotions.db"):
