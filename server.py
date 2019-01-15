@@ -155,4 +155,4 @@ class Face(Resource):
 api.add_resource(Face, '/')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
