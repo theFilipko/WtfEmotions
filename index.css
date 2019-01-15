@@ -28,10 +28,10 @@ img {
   right: 0;
 }
 .image {
-  max-height: 400px;
-  height: 400px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  max-height: 380px;
+  height: 380px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -163,11 +163,15 @@ footer {
   padding-top: 14px;
 }
 
+footer p {
+  font-size: .7rem;
+}
+
 
 @media (max-width: 48em) {
   .image {
-    max-height: 340px;
-    height: 340px;
+    max-height: 300px;
+    height: 300px;
   }
   .lead {
     font-size: 1rem;
@@ -181,8 +185,8 @@ footer {
 
 @media (max-width: 34em) {
   .image {
-    max-height: 260px;
-    height: 260px;
+    max-height: 240px;
+    height: 240px;
   }
   .lead {
     font-size: .8rem
@@ -202,8 +206,8 @@ footer {
 
 @media (max-width: 22em) {
   .image {
-    max-height: 240px;
-    height: 240px;
+    max-height: 200px;
+    height: 200px;
   }
   .lead {
     font-size: .6rem;
@@ -215,5 +219,8 @@ footer {
   }
   .intro-lead {
     font-size: .6rem;
+  }
+  footer p {
+    font-size: .4rem;
   }
 }
