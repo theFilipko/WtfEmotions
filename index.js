@@ -1,12 +1,39 @@
-var faceId = 0;
 var apiIP = "http://147.232.205.10/face";
+var faceId = 0;
+var answers_count = 0;
+var level_count = 1;
+var get_next_level_at = 1;
+var next_level_at = 1;
 
+
+
+function generateRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
+function levelPopup() {
+  if (answers_count == get_next_level_at) {
+    next_level_at = generateRandomNumber(get_next_level_at + 2, get_next_level_at + 3);
+    get_next_level_at += 4;
+  }
+  else {
+    if (answers_count == next_level_at) {
+      var level = "#L" + level_count.toString();
+      level_count += 1;
+      $(level).show().fadeOut(2910);
+    } 
+  }
+  answers_count += 1;
+}
+
+// show the instructions before playing
 function start(element) {
   element.classList.add("hidden");
   document.getElementById("w").classList.remove("hidden");
   httpGetImgAsync();
 }
 
+// get the selected emotion, pass it to server and ask for next face
 function proceedAsync(emotion) {
   if (faceId == 0)
     return;
@@ -23,6 +50,8 @@ function proceedAsync(emotion) {
       parseResponse(this.responseText);
   };
   xmlHttp.send(json)
+
+  levelPopup()
 }
 
 function parseResponse(responseText) {
@@ -34,10 +63,6 @@ function parseResponse(responseText) {
       
   var image = document.getElementById("face");
   image.setAttribute("src", faceImg);
-  // document.getElementById("xxx").innerHTML = "_" + faceId + "_" + faceImg + "_";
-  // document.getElementById("xxx").innerHTML = "_" + responseText + "_";
-  // console.log(xmlHttp.responseText);
-  // callback(xmlHttp.responseText);
 }
 
 // Send a 'GET' request to the specified url and run the callback function when it completes.
@@ -66,6 +91,7 @@ function httpPutEmotionAsync(emotion) {
   xmlHttp.open("PUT", apiIP, true);
   xmlHttp.send(json)
 }
+
 
 function proceed(emotion) {
   httpPutEmotionAsync(emotion);

@@ -37,3 +37,166 @@ start/restart nginx
 
 start server
     gunicorn server:app
+
+
+
+Ejha
+Ci pana
+Znaľec
+Vedúci
+Profík
+Guru
+Prezident
+Kráľ
+Šaľeňák
+Frajer
+Še ňezdáš
+Jak Pán
+Mňích <small>(smädni)</small>
+Majster N
+Ši še zbešňel?
+Čaroďejňík
+Gandalf
+Yoda
+Treba ci život!
+Najdzi sebe ženu!<br/><small>(abo chlopa)</small>
+Ci dziga
+Ňeňi možne toto
+Še obač
+Idzem ja het už
+Milujem ce!
+Vidaj še za mňe!
+Ľen tak daľej
+
+
+Waau
+Oooo
+Expert
+Šéf
+Pro
+Guru
+Kráľ
+Faraón
+Psycho
+Ultra
+Mních
+Majster
+Čarodejník
+Gandalf
+Yoda
+Oracle
+Homo Deus
+Ja končím!
+Potrebuješ život!
+Milujem ťa
+Nemožné
+Sklapni a ber peniaze!
+Vezmi si ma
+Len tak ďalej
+
+
+ E N G
+Woow
+Oooo
+Expert
+boss
+Pro
+Guru
+King
+Pharaoh
+Psych
+Ultimate
+Monk
+Master
+Gandalf
+Yoda
+Oracle
+Homo Deus
+I quit!
+You need a life
+I love u
+Impossible
+Shut up and take my money!
+Just, marry me!
+No more levels
+​
+ C A S
+Woow
+Oooo
+Experto
+Jefe
+Pro
+Guru
+Rey
+Faraón
+Psico
+Extremo
+Monje
+Patrón
+Mago
+Gandalf
+Yoda
+Oracle
+Homo Deus
+¡Ya! ¡Lo dejo!
+Necesitas una vida
+Te amo
+Imposible
+Cállate y toma mi dinero!!!
+¡Cásate conmigo!
+No hay más niveles
+
+
+ C U B
+Woow
+Oooo
+Experto
+Jefe
+Pro
+Guru
+Rey
+Faraón
+Quemao
+Extremo
+Monje
+Patrón
+Mago
+Gandalf
+Yoda
+Oracle
+Homo Deus
+¡Ya! ¡Lo dejo!
+Necesitas una vida
+Te amo
+Imposible
+Cállate y toma mi guano!!!
+¡Cásate conmigo!
+No hay más niveles
+Síngame
+
+
+ A N D
+Woow
+Oooo
+Experto
+Jefe
+Pro
+Guru
+Rey
+Faraó
+Loco
+Extremo
+Monje
+Patró
+Mago
+Gandalf
+Yoda
+Oracle
+Homo Deus
+¡Ya! ¡Lo dejo!
+Necesitas una vida
+Te amo
+Imposible
+Cállate y toma mi dinero!!!
+¡Cásate conmigo!
+Último
