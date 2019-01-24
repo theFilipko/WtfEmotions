@@ -1,0 +1,2791 @@
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 339-900-872
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 339-900-872
+127.0.0.1 - - [15/Jan/2019 15:27:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:36] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:36] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:42] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:42] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:43] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:44] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:50] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:50] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:52] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:56] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:56] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:32:57] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:17] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:17] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:19] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:22] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:22] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:23] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:26] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:31] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:31] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:36] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:37] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:37] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:38] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:39] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:46] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:46] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:47] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:48] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:50] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:52] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:33:52] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:34:02] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:34:02] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:34:04] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:42:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:42:59] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:42:59] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:43:04] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:43:04] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:43:05] "PUT / HTTP/1.0" 200 -
+2019-01-15 15:27:45 - 25055 - Server - Response: (151, 'data/d200.jpg')
+2019-01-15 15:32:36 - 25055 - Server - Received: b'{"id":"151","emotion":6}'
+2019-01-15 15:32:36 - 25055 - Server - Update done
+2019-01-15 15:32:36 - 25055 - Server - Response: (760, 'data/a139.jpg')
+2019-01-15 15:32:42 - 25055 - Server - Received: b'{"id":"760","emotion":6}'
+2019-01-15 15:32:42 - 25055 - Server - Update done
+2019-01-15 15:32:42 - 25055 - Server - Response: (865, 'data/a88.jpg')
+2019-01-15 15:32:43 - 25055 - Server - Received: b'{"id":"865","emotion":6}'
+2019-01-15 15:32:43 - 25055 - Server - Update done
+2019-01-15 15:32:43 - 25055 - Server - Response: (872, 'data/f140.jpg')
+2019-01-15 15:32:44 - 25055 - Server - Received: b'{"id":"872","emotion":5}'
+2019-01-15 15:32:44 - 25055 - Server - Update done
+2019-01-15 15:32:44 - 25055 - Server - Response: (199, 'data/f111.jpg')
+2019-01-15 15:32:50 - 25055 - Server - Received: b'{"id":"199","emotion":6}'
+2019-01-15 15:32:50 - 25055 - Server - Update done
+2019-01-15 15:32:50 - 25055 - Server - Response: (589, 'data/e267.jpg')
+2019-01-15 15:32:52 - 25055 - Server - Received: b'{"id":"589","emotion":6}'
+2019-01-15 15:32:52 - 25055 - Server - Update done
+2019-01-15 15:32:52 - 25055 - Server - Response: (402, 'data/d3.jpg')
+2019-01-15 15:32:56 - 25055 - Server - Received: b'{"id":"402","emotion":5}'
+2019-01-15 15:32:56 - 25055 - Server - Update done
+2019-01-15 15:32:56 - 25055 - Server - Response: (301, 'data/e320.jpg')
+2019-01-15 15:32:57 - 25055 - Server - Received: b'{"id":"301","emotion":6}'
+2019-01-15 15:32:57 - 25055 - Server - Update done
+2019-01-15 15:32:57 - 25055 - Server - Response: (339, 'data/g48.jpg')
+2019-01-15 15:33:17 - 25055 - Server - Received: b'{"id":"339","emotion":6}'
+2019-01-15 15:33:17 - 25055 - Server - Update done
+2019-01-15 15:33:17 - 25055 - Server - Response: (81, 'data/a238.jpg')
+2019-01-15 15:33:19 - 25055 - Server - Received: b'{"id":"81","emotion":6}'
+2019-01-15 15:33:19 - 25055 - Server - Update done
+2019-01-15 15:33:19 - 25055 - Server - Response: (410, 'data/a219.jpg')
+2019-01-15 15:33:22 - 25055 - Server - Received: b'{"id":"410","emotion":8}'
+2019-01-15 15:33:22 - 25055 - Server - Update done
+2019-01-15 15:33:22 - 25055 - Server - Response: (295, 'data/x295.jpg')
+2019-01-15 15:33:23 - 25055 - Server - Received: b'{"id":"295","emotion":5}'
+2019-01-15 15:33:23 - 25055 - Server - Update done
+2019-01-15 15:33:23 - 25055 - Server - Response: (82, 'data/i130.jpg')
+2019-01-15 15:33:26 - 25055 - Server - Received: b'{"id":"82","emotion":6}'
+2019-01-15 15:33:26 - 25055 - Server - Update done
+2019-01-15 15:33:26 - 25055 - Server - Response: (366, 'data/b137.jpg')
+2019-01-15 15:33:31 - 25055 - Server - Received: b'{"id":"366","emotion":4}'
+2019-01-15 15:33:31 - 25055 - Server - Update done
+2019-01-15 15:33:31 - 25055 - Server - Response: (600, 'data/i20.jpg')
+2019-01-15 15:33:36 - 25055 - Server - Received: b'{"id":"600","emotion":6}'
+2019-01-15 15:33:36 - 25055 - Server - Update done
+2019-01-15 15:33:36 - 25055 - Server - Response: (469, 'data/j64.jpg')
+2019-01-15 15:33:37 - 25055 - Server - Received: b'{"id":"469","emotion":5}'
+2019-01-15 15:33:37 - 25055 - Server - Update done
+2019-01-15 15:33:37 - 25055 - Server - Response: (427, 'data/h73.jpg')
+2019-01-15 15:33:38 - 25055 - Server - Received: b'{"id":"427","emotion":5}'
+2019-01-15 15:33:38 - 25055 - Server - Update done
+2019-01-15 15:33:38 - 25055 - Server - Response: (225, 'data/b421.jpg')
+2019-01-15 15:33:39 - 25055 - Server - Received: b'{"id":"225","emotion":5}'
+2019-01-15 15:33:39 - 25055 - Server - Update done
+2019-01-15 15:33:39 - 25055 - Server - Response: (306, 'data/i235.jpg')
+2019-01-15 15:33:46 - 25055 - Server - Received: b'{"id":"306","emotion":6}'
+2019-01-15 15:33:46 - 25055 - Server - Update done
+2019-01-15 15:33:46 - 25055 - Server - Response: (299, 'data/a378.jpg')
+2019-01-15 15:33:47 - 25055 - Server - Received: b'{"id":"299","emotion":6}'
+2019-01-15 15:33:47 - 25055 - Server - Update done
+2019-01-15 15:33:47 - 25055 - Server - Response: (101, 'data/a283.jpg')
+2019-01-15 15:33:48 - 25055 - Server - Received: b'{"id":"101","emotion":6}'
+2019-01-15 15:33:48 - 25055 - Server - Update done
+2019-01-15 15:33:48 - 25055 - Server - Response: (90, 'data/d136.jpg')
+2019-01-15 15:33:50 - 25055 - Server - Received: b'{"id":"90","emotion":6}'
+2019-01-15 15:33:50 - 25055 - Server - Update done
+2019-01-15 15:33:50 - 25055 - Server - Response: (378, 'data/j95.jpg')
+2019-01-15 15:33:52 - 25055 - Server - Received: b'{"id":"378","emotion":5}'
+2019-01-15 15:33:52 - 25055 - Server - Update done
+2019-01-15 15:33:52 - 25055 - Server - Response: (187, 'data/b16.jpg')
+2019-01-15 15:34:02 - 25055 - Server - Received: b'{"id":"187","emotion":6}'
+2019-01-15 15:34:02 - 25055 - Server - Update done
+2019-01-15 15:34:02 - 25055 - Server - Response: (78, 'data/e417.jpg')
+2019-01-15 15:34:04 - 25055 - Server - Received: b'{"id":"78","emotion":5}'
+2019-01-15 15:34:04 - 25055 - Server - Update done
+2019-01-15 15:34:04 - 25055 - Server - Response: (516, 'data/a106.jpg')
+2019-01-15 15:42:43 - 25055 - Server - Response: (578, 'data/g104.jpg')
+2019-01-15 15:42:59 - 25055 - Server - Received: b'{"id":"578","emotion":6}'
+2019-01-15 15:42:59 - 25055 - Server - Update done
+2019-01-15 15:42:59 - 25055 - Server - Response: (873, 'data/d172.jpg')
+2019-01-15 15:43:04 - 25055 - Server - Received: b'{"id":"873","emotion":4}'
+2019-01-15 15:43:04 - 25055 - Server - Update done
+2019-01-15 15:43:04 - 25055 - Server - Response: (312, 'data/h62.jpg')
+2019-01-15 15:43:05 - 25055 - Server - Received: b'{"id":"312","emotion":5}'
+2019-01-15 15:43:05 - 25055 - Server - Update done
+2019-01-15 15:43:05 - 25055 - Server - Response: (422, 'data/c103.jpg')
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [15/Jan/2019 15:59:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:59:41] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 15:59:41] "PUT / HTTP/1.0" 200 -
+2019-01-15 15:59:39 - 20774 - Server - Response: (167, 'data/j21.jpg')
+2019-01-15 15:59:41 - 20774 - Server - Received: b'{"id":"167","emotion":5}'
+2019-01-15 15:59:41 - 20774 - Server - Update done
+2019-01-15 15:59:41 - 20774 - Server - Response: (375, 'data/i362.jpg')
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2019-01-15 16:03:36 - 20774 - Server - Received: b'{"id":"437","emotion":6}'
+2019-01-15 16:03:36 - 20774 - Server - Update done
+2019-01-15 16:03:36 - 20774 - Server - Response: (692, 'data/f126.jpg')
+2019-01-15 16:03:45 - 20774 - Server - Received: b'{"id":"692","emotion":8}'
+2019-01-15 16:03:45 - 20774 - Server - Update done
+2019-01-15 16:03:45 - 20774 - Server - Response: (388, 'data/j61.jpg')
+2019-01-15 16:03:46 - 20774 - Server - Received: b'{"id":"388","emotion":5}'
+2019-01-15 16:03:46 - 20774 - Server - Update done
+2019-01-15 16:03:46 - 20774 - Server - Response: (280, 'data/b111.jpg')
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [15/Jan/2019 16:22:19] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 16:22:19] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 16:22:25] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 16:22:25] "PUT / HTTP/1.0" 200 -
+2019-01-15 16:22:19 - 20774 - Server - Received: b'{"id":"280","emotion":6}'
+2019-01-15 16:22:19 - 20774 - Server - Update done
+2019-01-15 16:22:19 - 20774 - Server - Response: (828, 'data/b36.jpg')
+2019-01-15 16:22:25 - 20774 - Server - Received: b'{"id":"828","emotion":1}'
+2019-01-15 16:22:25 - 20774 - Server - Update done
+2019-01-15 16:22:25 - 20774 - Server - Response: (574, 'data/f210.jpg')
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [15/Jan/2019 16:25:16] "OPTIONS / HTTP/1.0" 200 -
+2019-01-15 16:25:16 - 20774 - Server - Received: b'{"id":"574","emotion":6}'
+2019-01-15 16:25:16 - 20774 - Server - Update done
+2019-01-15 16:25:16 - 20774 - Server - Response: (278, 'data/x323.jpg')
+127.0.0.1 - - [15/Jan/2019 16:25:16] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 16:25:23] "OPTIONS / HTTP/1.0" 200 -
+2019-01-15 16:25:23 - 20774 - Server - Received: b'{"id":"278","emotion":2}'
+2019-01-15 16:25:23 - 20774 - Server - Update done
+2019-01-15 16:25:23 - 20774 - Server - Response: (763, 'data/a12.jpg')
+127.0.0.1 - - [15/Jan/2019 16:25:23] "PUT / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jan/2019 16:25:30] "OPTIONS / HTTP/1.0" 200 -
+2019-01-15 16:25:30 - 20774 - Server - Received: b'{"id":"763","emotion":6}'
+2019-01-15 16:25:30 - 20774 - Server - Update done
+2019-01-15 16:25:30 - 20774 - Server - Response: (297, 'data/c160.jpg')
+127.0.0.1 - - [15/Jan/2019 16:25:30] "PUT / HTTP/1.0" 200 -
+2019-01-15 16:25:31 - 20774 - Server - Received: b'{"id":"297","emotion":6}'
+2019-01-15 16:25:31 - 20774 - Server - Update done
+2019-01-15 16:25:31 - 20774 - Server - Response: (632, 'data/i316.jpg')
+127.0.0.1 - - [15/Jan/2019 16:25:31] "PUT / HTTP/1.0" 200 -
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-15 18:55:44 - 20774 - Server - Response: (765, 'data/d143.jpg')
+127.0.0.1 - - [15/Jan/2019 18:55:44] "GET /face HTTP/1.0" 200 -
+2019-01-15 18:56:23 - 20774 - Server - Response: (821, 'data/a65.jpg')
+127.0.0.1 - - [15/Jan/2019 18:56:23] "GET /face HTTP/1.0" 200 -
+2019-01-15 18:56:26 - 20774 - Server - Response: (664, 'data/g174.jpg')
+127.0.0.1 - - [15/Jan/2019 18:56:27] "GET /face HTTP/1.0" 200 -
+2019-01-15 18:56:45 - 20774 - Server - Response: (70, 'data/g231.jpg')
+127.0.0.1 - - [15/Jan/2019 18:56:45] "GET /face HTTP/1.0" 200 -
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-15 19:06:25 - 20774 - Server - Response: (794, 'data/j34.jpg')
+127.0.0.1 - - [15/Jan/2019 19:06:25] "GET /face HTTP/1.0" 200 -
+2019-01-15 19:07:20 - 20774 - Server - Response: (810, 'data/j12.jpg')
+127.0.0.1 - - [15/Jan/2019 19:07:20] "GET /face HTTP/1.0" 200 -
+2019-01-15 19:08:33 - 20774 - Server - Response: (31, 'data/b138.jpg')
+127.0.0.1 - - [15/Jan/2019 19:08:33] "GET /face HTTP/1.0" 200 -
+2019-01-15 19:08:45 - 20774 - Server - Received: b'{"id":"31","emotion":6}'
+2019-01-15 19:08:45 - 20774 - Server - Update done
+2019-01-15 19:08:45 - 20774 - Server - Response: (406, 'data/b155.jpg')
+127.0.0.1 - - [15/Jan/2019 19:08:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 19:08:54 - 20774 - Server - Received: b'{"id":"406","emotion":8}'
+2019-01-15 19:08:54 - 20774 - Server - Update done
+2019-01-15 19:08:54 - 20774 - Server - Response: (533, 'data/x34.jpg')
+127.0.0.1 - - [15/Jan/2019 19:08:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:40:46 - 20774 - Server - Response: (426, 'data/a118.jpg')
+127.0.0.1 - - [15/Jan/2019 21:40:46] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:40:51 - 20774 - Server - Received: b'{"id":"426","emotion":6}'
+2019-01-15 21:40:51 - 20774 - Server - Update done
+2019-01-15 21:40:51 - 20774 - Server - Response: (41, 'data/e190.jpg')
+127.0.0.1 - - [15/Jan/2019 21:40:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:40:52 - 20774 - Server - Received: b'{"id":"41","emotion":6}'
+2019-01-15 21:40:52 - 20774 - Server - Update done
+2019-01-15 21:40:52 - 20774 - Server - Response: (708, 'data/h82.jpg')
+127.0.0.1 - - [15/Jan/2019 21:40:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:40:53 - 20774 - Server - Received: b'{"id":"708","emotion":5}'
+2019-01-15 21:40:53 - 20774 - Server - Update done
+2019-01-15 21:40:53 - 20774 - Server - Response: (577, 'data/f212.jpg')
+127.0.0.1 - - [15/Jan/2019 21:40:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:40:54 - 20774 - Server - Received: b'{"id":"577","emotion":5}'
+2019-01-15 21:40:54 - 20774 - Server - Update done
+2019-01-15 21:40:54 - 20774 - Server - Response: (319, 'data/h15.jpg')
+127.0.0.1 - - [15/Jan/2019 21:40:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:40:55 - 20774 - Server - Received: b'{"id":"319","emotion":5}'
+2019-01-15 21:40:55 - 20774 - Server - Update done
+2019-01-15 21:40:55 - 20774 - Server - Response: (740, 'data/b122.jpg')
+127.0.0.1 - - [15/Jan/2019 21:40:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:01 - 20774 - Server - Received: b'{"id":"740","emotion":6}'
+2019-01-15 21:41:01 - 20774 - Server - Update done
+2019-01-15 21:41:01 - 20774 - Server - Response: (799, 'data/g134.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:03 - 20774 - Server - Received: b'{"id":"799","emotion":5}'
+2019-01-15 21:41:03 - 20774 - Server - Update done
+2019-01-15 21:41:03 - 20774 - Server - Response: (272, 'data/x400.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:04 - 20774 - Server - Received: b'{"id":"272","emotion":5}'
+2019-01-15 21:41:04 - 20774 - Server - Update done
+2019-01-15 21:41:04 - 20774 - Server - Response: (714, 'data/j7.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:08 - 20774 - Server - Received: b'{"id":"714","emotion":6}'
+2019-01-15 21:41:08 - 20774 - Server - Update done
+2019-01-15 21:41:08 - 20774 - Server - Response: (235, 'data/h6.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:09 - 20774 - Server - Received: b'{"id":"235","emotion":5}'
+2019-01-15 21:41:09 - 20774 - Server - Update done
+2019-01-15 21:41:09 - 20774 - Server - Response: (874, 'data/d241.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:11 - 20774 - Server - Received: b'{"id":"874","emotion":5}'
+2019-01-15 21:41:11 - 20774 - Server - Update done
+2019-01-15 21:41:11 - 20774 - Server - Response: (242, 'data/i59.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:12 - 20774 - Server - Received: b'{"id":"242","emotion":5}'
+2019-01-15 21:41:12 - 20774 - Server - Update done
+2019-01-15 21:41:12 - 20774 - Server - Response: (267, 'data/d2.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:13 - 20774 - Server - Received: b'{"id":"267","emotion":5}'
+2019-01-15 21:41:13 - 20774 - Server - Update done
+2019-01-15 21:41:13 - 20774 - Server - Response: (103, 'data/x196.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:14 - 20774 - Server - Received: b'{"id":"103","emotion":5}'
+2019-01-15 21:41:14 - 20774 - Server - Update done
+2019-01-15 21:41:14 - 20774 - Server - Response: (504, 'data/c206.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:14] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:19 - 20774 - Server - Received: b'{"id":"504","emotion":6}'
+2019-01-15 21:41:19 - 20774 - Server - Update done
+2019-01-15 21:41:19 - 20774 - Server - Response: (584, 'data/x22.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:19] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:20 - 20774 - Server - Received: b'{"id":"584","emotion":6}'
+2019-01-15 21:41:20 - 20774 - Server - Update done
+2019-01-15 21:41:20 - 20774 - Server - Response: (288, 'data/e105.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:20] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:21 - 20774 - Server - Received: b'{"id":"288","emotion":5}'
+2019-01-15 21:41:21 - 20774 - Server - Update done
+2019-01-15 21:41:21 - 20774 - Server - Response: (222, 'data/b52.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:21] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:23 - 20774 - Server - Received: b'{"id":"222","emotion":5}'
+2019-01-15 21:41:23 - 20774 - Server - Update done
+2019-01-15 21:41:23 - 20774 - Server - Response: (731, 'data/c199.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:23] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:26 - 20774 - Server - Received: b'{"id":"731","emotion":6}'
+2019-01-15 21:41:26 - 20774 - Server - Update done
+2019-01-15 21:41:26 - 20774 - Server - Response: (840, 'data/g210.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:26] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:29 - 20774 - Server - Received: b'{"id":"840","emotion":7}'
+2019-01-15 21:41:29 - 20774 - Server - Update done
+2019-01-15 21:41:29 - 20774 - Server - Response: (344, 'data/b373.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:29] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:41 - 20774 - Server - Received: b'{"id":"344","emotion":1}'
+2019-01-15 21:41:41 - 20774 - Server - Update done
+2019-01-15 21:41:41 - 20774 - Server - Response: (563, 'data/d74.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:41] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:44 - 20774 - Server - Received: b'{"id":"563","emotion":4}'
+2019-01-15 21:41:44 - 20774 - Server - Update done
+2019-01-15 21:41:44 - 20774 - Server - Response: (60, 'data/a122.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:52 - 20774 - Server - Received: b'{"id":"60","emotion":6}'
+2019-01-15 21:41:52 - 20774 - Server - Update done
+2019-01-15 21:41:52 - 20774 - Server - Response: (76, 'data/b258.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:56 - 20774 - Server - Received: b'{"id":"76","emotion":1}'
+2019-01-15 21:41:56 - 20774 - Server - Update done
+2019-01-15 21:41:56 - 20774 - Server - Response: (125, 'data/x214.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:58 - 20774 - Server - Received: b'{"id":"125","emotion":5}'
+2019-01-15 21:41:58 - 20774 - Server - Update done
+2019-01-15 21:41:58 - 20774 - Server - Response: (556, 'data/b57.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:41:59 - 20774 - Server - Received: b'{"id":"556","emotion":5}'
+2019-01-15 21:41:59 - 20774 - Server - Update done
+2019-01-15 21:41:59 - 20774 - Server - Response: (814, 'data/j67.jpg')
+127.0.0.1 - - [15/Jan/2019 21:41:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:00 - 20774 - Server - Received: b'{"id":"814","emotion":5}'
+2019-01-15 21:42:00 - 20774 - Server - Update done
+2019-01-15 21:42:00 - 20774 - Server - Response: (114, 'data/g202.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:05 - 20774 - Server - Received: b'{"id":"114","emotion":5}'
+2019-01-15 21:42:05 - 20774 - Server - Update done
+2019-01-15 21:42:05 - 20774 - Server - Response: (540, 'data/c164.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:06 - 20774 - Server - Received: b'{"id":"540","emotion":6}'
+2019-01-15 21:42:06 - 20774 - Server - Update done
+2019-01-15 21:42:06 - 20774 - Server - Response: (489, 'data/c208.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:07 - 20774 - Server - Received: b'{"id":"489","emotion":6}'
+2019-01-15 21:42:07 - 20774 - Server - Update done
+2019-01-15 21:42:08 - 20774 - Server - Response: (545, 'data/h72.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:12 - 20774 - Server - Received: b'{"id":"545","emotion":5}'
+2019-01-15 21:42:12 - 20774 - Server - Update done
+2019-01-15 21:42:12 - 20774 - Server - Response: (6, 'data/f85.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:16 - 20774 - Server - Received: b'{"id":"6","emotion":8}'
+2019-01-15 21:42:16 - 20774 - Server - Update done
+2019-01-15 21:42:16 - 20774 - Server - Response: (627, 'data/g213.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:16] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:17 - 20774 - Server - Received: b'{"id":"627","emotion":8}'
+2019-01-15 21:42:17 - 20774 - Server - Update done
+2019-01-15 21:42:17 - 20774 - Server - Response: (409, 'data/c145.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:19 - 20774 - Server - Received: b'{"id":"409","emotion":6}'
+2019-01-15 21:42:19 - 20774 - Server - Update done
+2019-01-15 21:42:19 - 20774 - Server - Response: (662, 'data/h20.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:19] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:25 - 20774 - Server - Received: b'{"id":"662","emotion":6}'
+2019-01-15 21:42:25 - 20774 - Server - Update done
+2019-01-15 21:42:25 - 20774 - Server - Response: (839, 'data/c130.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:28 - 20774 - Server - Received: b'{"id":"839","emotion":7}'
+2019-01-15 21:42:28 - 20774 - Server - Update done
+2019-01-15 21:42:28 - 20774 - Server - Response: (550, 'data/b217.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:30 - 20774 - Server - Received: b'{"id":"550","emotion":1}'
+2019-01-15 21:42:30 - 20774 - Server - Update done
+2019-01-15 21:42:30 - 20774 - Server - Response: (473, 'data/c190.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:30] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:32 - 20774 - Server - Received: b'{"id":"473","emotion":5}'
+2019-01-15 21:42:32 - 20774 - Server - Update done
+2019-01-15 21:42:32 - 20774 - Server - Response: (709, 'data/b233.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:34 - 20774 - Server - Received: b'{"id":"709","emotion":6}'
+2019-01-15 21:42:34 - 20774 - Server - Update done
+2019-01-15 21:42:34 - 20774 - Server - Response: (193, 'data/d303.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:34] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:47 - 20774 - Server - Received: b'{"id":"193","emotion":1}'
+2019-01-15 21:42:47 - 20774 - Server - Update done
+2019-01-15 21:42:47 - 20774 - Server - Response: (782, 'data/i415.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:57 - 20774 - Server - Received: b'{"id":"782","emotion":2}'
+2019-01-15 21:42:57 - 20774 - Server - Update done
+2019-01-15 21:42:57 - 20774 - Server - Response: (668, 'data/h26.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:42:59 - 20774 - Server - Received: b'{"id":"668","emotion":5}'
+2019-01-15 21:42:59 - 20774 - Server - Update done
+2019-01-15 21:42:59 - 20774 - Server - Response: (525, 'data/a308.jpg')
+127.0.0.1 - - [15/Jan/2019 21:42:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:43:00 - 20774 - Server - Received: b'{"id":"525","emotion":6}'
+2019-01-15 21:43:00 - 20774 - Server - Update done
+2019-01-15 21:43:00 - 20774 - Server - Response: (497, 'data/e102.jpg')
+127.0.0.1 - - [15/Jan/2019 21:43:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:43:02 - 20774 - Server - Received: b'{"id":"497","emotion":5}'
+2019-01-15 21:43:02 - 20774 - Server - Update done
+2019-01-15 21:43:02 - 20774 - Server - Response: (622, 'data/a354.jpg')
+127.0.0.1 - - [15/Jan/2019 21:43:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:43:09 - 20774 - Server - Received: b'{"id":"622","emotion":2}'
+2019-01-15 21:43:09 - 20774 - Server - Update done
+2019-01-15 21:43:09 - 20774 - Server - Response: (89, 'data/f53.jpg')
+127.0.0.1 - - [15/Jan/2019 21:43:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:43:10 - 20774 - Server - Received: b'{"id":"89","emotion":5}'
+2019-01-15 21:43:10 - 20774 - Server - Update done
+2019-01-15 21:43:10 - 20774 - Server - Response: (777, 'data/d61.jpg')
+127.0.0.1 - - [15/Jan/2019 21:43:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:43:13 - 20774 - Server - Received: b'{"id":"777","emotion":6}'
+2019-01-15 21:43:13 - 20774 - Server - Update done
+2019-01-15 21:43:13 - 20774 - Server - Response: (122, 'data/g89.jpg')
+127.0.0.1 - - [15/Jan/2019 21:43:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:43:14 - 20774 - Server - Received: b'{"id":"122","emotion":6}'
+2019-01-15 21:43:14 - 20774 - Server - Update done
+2019-01-15 21:43:14 - 20774 - Server - Response: (635, 'data/i103.jpg')
+127.0.0.1 - - [15/Jan/2019 21:43:14] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:47:41 - 20774 - Server - Response: (354, 'data/e407.jpg')
+127.0.0.1 - - [15/Jan/2019 21:47:41] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:47:47 - 20774 - Server - Received: b'{"id":"354","emotion":6}'
+2019-01-15 21:47:47 - 20774 - Server - Update done
+2019-01-15 21:47:47 - 20774 - Server - Response: (790, 'data/j130.jpg')
+127.0.0.1 - - [15/Jan/2019 21:47:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:47:53 - 20774 - Server - Received: b'{"id":"790","emotion":6}'
+2019-01-15 21:47:53 - 20774 - Server - Update done
+2019-01-15 21:47:53 - 20774 - Server - Response: (12, 'data/f22.jpg')
+127.0.0.1 - - [15/Jan/2019 21:47:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:48:06 - 20774 - Server - Received: b'{"id":"12","emotion":2}'
+2019-01-15 21:48:06 - 20774 - Server - Update done
+2019-01-15 21:48:06 - 20774 - Server - Response: (440, 'data/g164.jpg')
+127.0.0.1 - - [15/Jan/2019 21:48:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:48:09 - 20774 - Server - Received: b'{"id":"440","emotion":6}'
+2019-01-15 21:48:09 - 20774 - Server - Update done
+2019-01-15 21:48:09 - 20774 - Server - Response: (609, 'data/e274.jpg')
+127.0.0.1 - - [15/Jan/2019 21:48:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:48:11 - 20774 - Server - Received: b'{"id":"609","emotion":6}'
+2019-01-15 21:48:11 - 20774 - Server - Update done
+2019-01-15 21:48:11 - 20774 - Server - Response: (794, 'data/j34.jpg')
+127.0.0.1 - - [15/Jan/2019 21:48:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:48:13 - 20774 - Server - Received: b'{"id":"794","emotion":5}'
+2019-01-15 21:48:13 - 20774 - Server - Update done
+2019-01-15 21:48:13 - 20774 - Server - Response: (759, 'data/f119.jpg')
+127.0.0.1 - - [15/Jan/2019 21:48:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:48:16 - 20774 - Server - Received: b'{"id":"759","emotion":5}'
+2019-01-15 21:48:16 - 20774 - Server - Update done
+2019-01-15 21:48:16 - 20774 - Server - Response: (522, 'data/g51.jpg')
+127.0.0.1 - - [15/Jan/2019 21:48:16] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:48:18 - 20774 - Server - Received: b'{"id":"522","emotion":8}'
+2019-01-15 21:48:18 - 20774 - Server - Update done
+2019-01-15 21:48:18 - 20774 - Server - Response: (694, 'data/e356.jpg')
+127.0.0.1 - - [15/Jan/2019 21:48:18] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:51:33 - 20774 - Server - Response: (34, 'data/h63.jpg')
+127.0.0.1 - - [15/Jan/2019 21:51:33] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:51:44 - 20774 - Server - Received: b'{"id":"34","emotion":5}'
+2019-01-15 21:51:44 - 20774 - Server - Update done
+2019-01-15 21:51:45 - 20774 - Server - Response: (77, 'data/b372.jpg')
+127.0.0.1 - - [15/Jan/2019 21:51:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:51:57 - 20774 - Server - Received: b'{"id":"77","emotion":8}'
+2019-01-15 21:51:57 - 20774 - Server - Update done
+2019-01-15 21:51:57 - 20774 - Server - Response: (431, 'data/g129.jpg')
+127.0.0.1 - - [15/Jan/2019 21:51:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:04 - 20774 - Server - Received: b'{"id":"431","emotion":7}'
+2019-01-15 21:52:04 - 20774 - Server - Update done
+2019-01-15 21:52:04 - 20774 - Server - Response: (298, 'data/x92.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:08 - 20774 - Server - Received: b'{"id":"298","emotion":5}'
+2019-01-15 21:52:08 - 20774 - Server - Update done
+2019-01-15 21:52:08 - 20774 - Server - Response: (229, 'data/g135.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:11 - 20774 - Server - Received: b'{"id":"229","emotion":7}'
+2019-01-15 21:52:11 - 20774 - Server - Update done
+2019-01-15 21:52:11 - 20774 - Server - Response: (625, 'data/f242.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:11 - 20774 - Server - Response: (664, 'data/g174.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:11] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:52:13 - 20774 - Server - Received: b'{"id":"625","emotion":5}'
+2019-01-15 21:52:13 - 20774 - Server - Update done
+2019-01-15 21:52:13 - 20774 - Server - Response: (389, 'data/b408.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:15 - 20774 - Server - Received: b'{"id":"389","emotion":6}'
+2019-01-15 21:52:15 - 20774 - Server - Update done
+2019-01-15 21:52:15 - 20774 - Server - Response: (61, 'data/d9.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:15] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:23 - 20774 - Server - Received: b'{"id":"61","emotion":5}'
+2019-01-15 21:52:23 - 20774 - Server - Update done
+2019-01-15 21:52:23 - 20774 - Server - Response: (684, 'data/i410.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:23] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:31 - 20774 - Server - Received: b'{"id":"684","emotion":6}'
+2019-01-15 21:52:31 - 20774 - Server - Update done
+2019-01-15 21:52:31 - 20774 - Server - Response: (493, 'data/b2.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:35 - 20774 - Server - Received: b'{"id":"664","emotion":6}'
+2019-01-15 21:52:35 - 20774 - Server - Update done
+2019-01-15 21:52:35 - 20774 - Server - Response: (29, 'data/e271.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:35] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:39 - 20774 - Server - Received: b'{"id":"493","emotion":6}'
+2019-01-15 21:52:39 - 20774 - Server - Update done
+2019-01-15 21:52:39 - 20774 - Server - Response: (640, 'data/g272.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:39] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:43 - 20774 - Server - Received: b'{"id":"640","emotion":6}'
+2019-01-15 21:52:43 - 20774 - Server - Update done
+2019-01-15 21:52:43 - 20774 - Server - Response: (779, 'data/a312.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:44 - 20774 - Server - Received: b'{"id":"29","emotion":6}'
+2019-01-15 21:52:44 - 20774 - Server - Update done
+2019-01-15 21:52:44 - 20774 - Server - Response: (480, 'data/f341.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:49 - 20774 - Server - Received: b'{"id":"779","emotion":8}'
+2019-01-15 21:52:49 - 20774 - Server - Update done
+2019-01-15 21:52:49 - 20774 - Server - Response: (538, 'data/g190.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:52 - 20774 - Server - Received: b'{"id":"538","emotion":6}'
+2019-01-15 21:52:52 - 20774 - Server - Update done
+2019-01-15 21:52:52 - 20774 - Server - Response: (48, 'data/e382.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:55 - 20774 - Server - Received: b'{"id":"480","emotion":5}'
+2019-01-15 21:52:55 - 20774 - Server - Update done
+2019-01-15 21:52:55 - 20774 - Server - Response: (155, 'data/c10.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:55 - 20774 - Server - Received: b'{"id":"48","emotion":8}'
+2019-01-15 21:52:55 - 20774 - Server - Update done
+2019-01-15 21:52:55 - 20774 - Server - Response: (304, 'data/j51.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:52:59 - 20774 - Server - Received: b'{"id":"304","emotion":7}'
+2019-01-15 21:52:59 - 20774 - Server - Update done
+2019-01-15 21:52:59 - 20774 - Server - Response: (800, 'data/c27.jpg')
+127.0.0.1 - - [15/Jan/2019 21:52:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:03 - 20774 - Server - Received: b'{"id":"800","emotion":6}'
+2019-01-15 21:53:03 - 20774 - Server - Update done
+2019-01-15 21:53:03 - 20774 - Server - Response: (832, 'data/g172.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:04 - 20774 - Server - Received: b'{"id":"832","emotion":6}'
+2019-01-15 21:53:04 - 20774 - Server - Update done
+2019-01-15 21:53:04 - 20774 - Server - Response: (856, 'data/e231.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:04 - 20774 - Server - Received: b'{"id":"155","emotion":6}'
+2019-01-15 21:53:04 - 20774 - Server - Update done
+2019-01-15 21:53:04 - 20774 - Server - Response: (172, 'data/c11.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:08 - 20774 - Server - Received: b'{"id":"856","emotion":6}'
+2019-01-15 21:53:08 - 20774 - Server - Update done
+2019-01-15 21:53:08 - 20774 - Server - Response: (650, 'data/x147.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:12 - 20774 - Server - Received: b'{"id":"172","emotion":9}'
+2019-01-15 21:53:12 - 20774 - Server - Update done
+2019-01-15 21:53:12 - 20774 - Server - Response: (608, 'data/i85.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:19 - 20774 - Server - Received: b'{"id":"650","emotion":2}'
+2019-01-15 21:53:19 - 20774 - Server - Update done
+2019-01-15 21:53:19 - 20774 - Server - Response: (846, 'data/d233.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:19] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:22 - 20774 - Server - Received: b'{"id":"846","emotion":7}'
+2019-01-15 21:53:22 - 20774 - Server - Update done
+2019-01-15 21:53:22 - 20774 - Server - Response: (263, 'data/d307.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:22] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:23 - 20774 - Server - Received: b'{"id":"263","emotion":7}'
+2019-01-15 21:53:23 - 20774 - Server - Update done
+2019-01-15 21:53:23 - 20774 - Server - Response: (861, 'data/f8.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:23] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:25 - 20774 - Server - Received: b'{"id":"861","emotion":5}'
+2019-01-15 21:53:25 - 20774 - Server - Update done
+2019-01-15 21:53:25 - 20774 - Server - Response: (742, 'data/g71.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:31 - 20774 - Server - Received: b'{"id":"742","emotion":8}'
+2019-01-15 21:53:31 - 20774 - Server - Update done
+2019-01-15 21:53:31 - 20774 - Server - Response: (133, 'data/a54.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:32 - 20774 - Server - Received: b'{"id":"133","emotion":8}'
+2019-01-15 21:53:32 - 20774 - Server - Update done
+2019-01-15 21:53:32 - 20774 - Server - Response: (355, 'data/j80.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:34 - 20774 - Server - Received: b'{"id":"355","emotion":5}'
+2019-01-15 21:53:34 - 20774 - Server - Update done
+2019-01-15 21:53:34 - 20774 - Server - Response: (634, 'data/h9.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:34] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:38 - 20774 - Server - Received: b'{"id":"608","emotion":9}'
+2019-01-15 21:53:38 - 20774 - Server - Update done
+2019-01-15 21:53:38 - 20774 - Server - Response: (208, 'data/b333.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:38] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:39 - 20774 - Server - Received: b'{"id":"634","emotion":5}'
+2019-01-15 21:53:39 - 20774 - Server - Update done
+2019-01-15 21:53:39 - 20774 - Server - Response: (244, 'data/x321.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:39] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:39 - 20774 - Server - Received: b'{"id":"634","emotion":5}'
+2019-01-15 21:53:39 - 20774 - Server - Update done
+2019-01-15 21:53:39 - 20774 - Server - Response: (390, 'data/a57.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:39] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:43 - 20774 - Server - Received: b'{"id":"208","emotion":4}'
+2019-01-15 21:53:43 - 20774 - Server - Update done
+2019-01-15 21:53:43 - 20774 - Server - Response: (436, 'data/i162.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:45 - 20774 - Server - Received: b'{"id":"436","emotion":9}'
+2019-01-15 21:53:45 - 20774 - Server - Update done
+2019-01-15 21:53:45 - 20774 - Server - Response: (718, 'data/c239.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:47 - 20774 - Server - Received: b'{"id":"390","emotion":5}'
+2019-01-15 21:53:47 - 20774 - Server - Update done
+2019-01-15 21:53:47 - 20774 - Server - Response: (71, 'data/f142.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:48 - 20774 - Server - Received: b'{"id":"71","emotion":5}'
+2019-01-15 21:53:48 - 20774 - Server - Update done
+2019-01-15 21:53:48 - 20774 - Server - Response: (529, 'data/x256.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:49 - 20774 - Server - Received: b'{"id":"529","emotion":5}'
+2019-01-15 21:53:49 - 20774 - Server - Update done
+2019-01-15 21:53:49 - 20774 - Server - Response: (370, 'data/b319.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:50 - 20774 - Server - Received: b'{"id":"718","emotion":1}'
+2019-01-15 21:53:50 - 20774 - Server - Update done
+2019-01-15 21:53:50 - 20774 - Server - Response: (149, 'data/d263.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:50 - 20774 - Server - Received: b'{"id":"370","emotion":5}'
+2019-01-15 21:53:50 - 20774 - Server - Update done
+2019-01-15 21:53:50 - 20774 - Server - Response: (362, 'data/d18.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:51 - 20774 - Server - Received: b'{"id":"362","emotion":5}'
+2019-01-15 21:53:51 - 20774 - Server - Update done
+2019-01-15 21:53:51 - 20774 - Server - Response: (96, 'data/a164.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:54 - 20774 - Server - Received: b'{"id":"96","emotion":8}'
+2019-01-15 21:53:54 - 20774 - Server - Update done
+2019-01-15 21:53:54 - 20774 - Server - Response: (328, 'data/a352.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:55 - 20774 - Server - Response: (391, 'data/x180.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:55] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:53:55 - 20774 - Server - Received: b'{"id":"328","emotion":8}'
+2019-01-15 21:53:55 - 20774 - Server - Update done
+2019-01-15 21:53:55 - 20774 - Server - Response: (802, 'data/d146.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:53:58 - 20774 - Server - Received: b'{"id":"802","emotion":7}'
+2019-01-15 21:53:58 - 20774 - Server - Update done
+2019-01-15 21:53:58 - 20774 - Server - Response: (282, 'data/f216.jpg')
+127.0.0.1 - - [15/Jan/2019 21:53:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:00 - 20774 - Server - Received: b'{"id":"282","emotion":5}'
+2019-01-15 21:54:00 - 20774 - Server - Update done
+2019-01-15 21:54:00 - 20774 - Server - Response: (283, 'data/h37.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:01 - 20774 - Server - Received: b'{"id":"283","emotion":5}'
+2019-01-15 21:54:01 - 20774 - Server - Update done
+2019-01-15 21:54:01 - 20774 - Server - Response: (35, 'data/d42.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:02 - 20774 - Server - Received: b'{"id":"149","emotion":9}'
+2019-01-15 21:54:02 - 20774 - Server - Update done
+2019-01-15 21:54:02 - 20774 - Server - Response: (233, 'data/c75.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:03 - 20774 - Server - Received: b'{"id":"35","emotion":7}'
+2019-01-15 21:54:03 - 20774 - Server - Update done
+2019-01-15 21:54:03 - 20774 - Server - Response: (113, 'data/j140.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:04 - 20774 - Server - Received: b'{"id":"233","emotion":5}'
+2019-01-15 21:54:04 - 20774 - Server - Update done
+2019-01-15 21:54:04 - 20774 - Server - Response: (79, 'data/g274.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:05 - 20774 - Server - Response: (227, 'data/h43.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:05] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:54:05 - 20774 - Server - Received: b'{"id":"391","emotion":2}'
+2019-01-15 21:54:05 - 20774 - Server - Update done
+2019-01-15 21:54:05 - 20774 - Server - Response: (765, 'data/d143.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:05 - 20774 - Server - Received: b'{"id":"113","emotion":5}'
+2019-01-15 21:54:05 - 20774 - Server - Update done
+2019-01-15 21:54:05 - 20774 - Server - Response: (681, 'data/g40.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:07 - 20774 - Server - Received: b'{"id":"79","emotion":6}'
+2019-01-15 21:54:07 - 20774 - Server - Update done
+2019-01-15 21:54:07 - 20774 - Server - Response: (323, 'data/e240.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:07] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:07 - 20774 - Server - Received: b'{"id":"681","emotion":5}'
+2019-01-15 21:54:07 - 20774 - Server - Update done
+2019-01-15 21:54:07 - 20774 - Server - Response: (656, 'data/e361.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:07] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:10 - 20774 - Server - Received: b'{"id":"656","emotion":2}'
+2019-01-15 21:54:10 - 20774 - Server - Update done
+2019-01-15 21:54:10 - 20774 - Server - Response: (630, 'data/c12.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:10 - 20774 - Server - Received: b'{"id":"227","emotion":6}'
+2019-01-15 21:54:10 - 20774 - Server - Update done
+2019-01-15 21:54:10 - 20774 - Server - Response: (363, 'data/h57.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:10 - 20774 - Server - Received: b'{"id":"323","emotion":5}'
+2019-01-15 21:54:10 - 20774 - Server - Update done
+2019-01-15 21:54:10 - 20774 - Server - Response: (739, 'data/j26.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:10 - 20774 - Server - Received: b'{"id":"765","emotion":4}'
+2019-01-15 21:54:10 - 20774 - Server - Update done
+2019-01-15 21:54:10 - 20774 - Server - Response: (644, 'data/c28.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:11 - 20774 - Server - Received: b'{"id":"630","emotion":9}'
+2019-01-15 21:54:11 - 20774 - Server - Update done
+2019-01-15 21:54:11 - 20774 - Server - Response: (494, 'data/e377.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:12 - 20774 - Server - Received: b'{"id":"739","emotion":5}'
+2019-01-15 21:54:12 - 20774 - Server - Update done
+2019-01-15 21:54:12 - 20774 - Server - Response: (598, 'data/c70.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:13 - 20774 - Server - Received: b'{"id":"598","emotion":5}'
+2019-01-15 21:54:13 - 20774 - Server - Update done
+2019-01-15 21:54:13 - 20774 - Server - Response: (778, 'data/b256.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:14 - 20774 - Server - Received: b'{"id":"494","emotion":4}'
+2019-01-15 21:54:14 - 20774 - Server - Update done
+2019-01-15 21:54:14 - 20774 - Server - Response: (185, 'data/b296.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:14] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:14 - 20774 - Server - Received: b'{"id":"644","emotion":6}'
+2019-01-15 21:54:14 - 20774 - Server - Update done
+2019-01-15 21:54:14 - 20774 - Server - Response: (567, 'data/f344.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:14] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:14 - 20774 - Server - Received: b'{"id":"363","emotion":6}'
+2019-01-15 21:54:14 - 20774 - Server - Update done
+2019-01-15 21:54:14 - 20774 - Server - Response: (39, 'data/g146.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:14] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:17 - 20774 - Server - Received: b'{"id":"185","emotion":6}'
+2019-01-15 21:54:17 - 20774 - Server - Update done
+2019-01-15 21:54:17 - 20774 - Server - Response: (511, 'data/a31.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:17 - 20774 - Server - Received: b'{"id":"567","emotion":5}'
+2019-01-15 21:54:17 - 20774 - Server - Update done
+2019-01-15 21:54:17 - 20774 - Server - Response: (243, 'data/f141.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:18 - 20774 - Server - Received: b'{"id":"778","emotion":9}'
+2019-01-15 21:54:18 - 20774 - Server - Update done
+2019-01-15 21:54:18 - 20774 - Server - Response: (549, 'data/f291.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:18] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:19 - 20774 - Server - Received: b'{"id":"511","emotion":8}'
+2019-01-15 21:54:19 - 20774 - Server - Update done
+2019-01-15 21:54:19 - 20774 - Server - Response: (115, 'data/h79.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:19] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:20 - 20774 - Server - Received: b'{"id":"243","emotion":5}'
+2019-01-15 21:54:20 - 20774 - Server - Update done
+2019-01-15 21:54:20 - 20774 - Server - Response: (858, 'data/i312.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:20] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:21 - 20774 - Server - Received: b'{"id":"115","emotion":5}'
+2019-01-15 21:54:21 - 20774 - Server - Update done
+2019-01-15 21:54:21 - 20774 - Server - Response: (296, 'data/h35.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:21] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:22 - 20774 - Server - Received: b'{"id":"39","emotion":8}'
+2019-01-15 21:54:22 - 20774 - Server - Update done
+2019-01-15 21:54:22 - 20774 - Server - Response: (683, 'data/f199.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:22] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:22 - 20774 - Server - Received: b'{"id":"296","emotion":5}'
+2019-01-15 21:54:22 - 20774 - Server - Update done
+2019-01-15 21:54:22 - 20774 - Server - Response: (118, 'data/g204.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:22] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:24 - 20774 - Server - Received: b'{"id":"118","emotion":7}'
+2019-01-15 21:54:24 - 20774 - Server - Update done
+2019-01-15 21:54:24 - 20774 - Server - Response: (287, 'data/b1.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:24] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:25 - 20774 - Server - Received: b'{"id":"549","emotion":6}'
+2019-01-15 21:54:25 - 20774 - Server - Update done
+2019-01-15 21:54:25 - 20774 - Server - Response: (449, 'data/h18.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:25 - 20774 - Server - Received: b'{"id":"683","emotion":6}'
+2019-01-15 21:54:25 - 20774 - Server - Update done
+2019-01-15 21:54:25 - 20774 - Server - Response: (717, 'data/g155.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:26 - 20774 - Server - Received: b'{"id":"287","emotion":3}'
+2019-01-15 21:54:26 - 20774 - Server - Update done
+2019-01-15 21:54:26 - 20774 - Server - Response: (24, 'data/f395.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:26] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:26 - 20774 - Server - Received: b'{"id":"858","emotion":9}'
+2019-01-15 21:54:26 - 20774 - Server - Update done
+2019-01-15 21:54:26 - 20774 - Server - Response: (373, 'data/b375.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:26] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:28 - 20774 - Server - Received: b'{"id":"24","emotion":5}'
+2019-01-15 21:54:28 - 20774 - Server - Update done
+2019-01-15 21:54:28 - 20774 - Server - Response: (131, 'data/j97.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:28 - 20774 - Server - Received: b'{"id":"373","emotion":1}'
+2019-01-15 21:54:28 - 20774 - Server - Update done
+2019-01-15 21:54:28 - 20774 - Server - Response: (559, 'data/x338.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:31 - 20774 - Server - Received: b'{"id":"131","emotion":9}'
+2019-01-15 21:54:31 - 20774 - Server - Update done
+2019-01-15 21:54:31 - 20774 - Server - Response: (9, 'data/h27.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:32 - 20774 - Server - Received: b'{"id":"9","emotion":6}'
+2019-01-15 21:54:32 - 20774 - Server - Update done
+2019-01-15 21:54:32 - 20774 - Server - Response: (769, 'data/x236.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:33 - 20774 - Server - Received: b'{"id":"769","emotion":5}'
+2019-01-15 21:54:33 - 20774 - Server - Update done
+2019-01-15 21:54:33 - 20774 - Server - Response: (181, 'data/j56.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:34 - 20774 - Server - Received: b'{"id":"717","emotion":8}'
+2019-01-15 21:54:34 - 20774 - Server - Update done
+2019-01-15 21:54:34 - 20774 - Server - Response: (153, 'data/c155.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:34] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:35 - 20774 - Server - Received: b'{"id":"559","emotion":9}'
+2019-01-15 21:54:35 - 20774 - Server - Update done
+2019-01-15 21:54:35 - 20774 - Server - Response: (95, 'data/e228.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:35] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:35 - 20774 - Server - Received: b'{"id":"181","emotion":5}'
+2019-01-15 21:54:35 - 20774 - Server - Update done
+2019-01-15 21:54:35 - 20774 - Server - Response: (336, 'data/c72.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:35] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:37 - 20774 - Server - Received: b'{"id":"336","emotion":7}'
+2019-01-15 21:54:37 - 20774 - Server - Update done
+2019-01-15 21:54:37 - 20774 - Server - Response: (773, 'data/f94.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:37] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:37 - 20774 - Server - Received: b'{"id":"95","emotion":9}'
+2019-01-15 21:54:37 - 20774 - Server - Update done
+2019-01-15 21:54:37 - 20774 - Server - Response: (730, 'data/d41.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:37] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:37 - 20774 - Server - Received: b'{"id":"153","emotion":6}'
+2019-01-15 21:54:37 - 20774 - Server - Update done
+2019-01-15 21:54:37 - 20774 - Server - Response: (539, 'data/a236.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:37] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:39 - 20774 - Server - Received: b'{"id":"773","emotion":2}'
+2019-01-15 21:54:39 - 20774 - Server - Update done
+2019-01-15 21:54:39 - 20774 - Server - Response: (46, 'data/i335.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:39] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:40 - 20774 - Server - Received: b'{"id":"46","emotion":5}'
+2019-01-15 21:54:40 - 20774 - Server - Update done
+2019-01-15 21:54:40 - 20774 - Server - Response: (418, 'data/d144.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:40] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:40 - 20774 - Server - Received: b'{"id":"730","emotion":7}'
+2019-01-15 21:54:40 - 20774 - Server - Update done
+2019-01-15 21:54:40 - 20774 - Server - Response: (501, 'data/g87.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:40] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:41 - 20774 - Server - Received: b'{"id":"418","emotion":5}'
+2019-01-15 21:54:41 - 20774 - Server - Update done
+2019-01-15 21:54:41 - 20774 - Server - Response: (507, 'data/c148.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:41] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:41 - 20774 - Server - Received: b'{"id":"507","emotion":6}'
+2019-01-15 21:54:41 - 20774 - Server - Update done
+2019-01-15 21:54:41 - 20774 - Server - Response: (815, 'data/f301.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:41] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:41 - 20774 - Server - Received: b'{"id":"815","emotion":6}'
+2019-01-15 21:54:41 - 20774 - Server - Update done
+2019-01-15 21:54:41 - 20774 - Server - Response: (535, 'data/a285.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:41] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:42 - 20774 - Server - Received: b'{"id":"535","emotion":6}'
+2019-01-15 21:54:42 - 20774 - Server - Update done
+2019-01-15 21:54:42 - 20774 - Server - Response: (93, 'data/c64.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:42] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:42 - 20774 - Server - Received: b'{"id":"93","emotion":7}'
+2019-01-15 21:54:42 - 20774 - Server - Update done
+2019-01-15 21:54:42 - 20774 - Server - Response: (862, 'data/h8.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:42] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:42 - 20774 - Server - Received: b'{"id":"862","emotion":6}'
+2019-01-15 21:54:42 - 20774 - Server - Update done
+2019-01-15 21:54:42 - 20774 - Server - Response: (108, 'data/g254.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:42] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:42 - 20774 - Server - Received: b'{"id":"108","emotion":6}'
+2019-01-15 21:54:42 - 20774 - Server - Update done
+2019-01-15 21:54:42 - 20774 - Server - Response: (367, 'data/b425.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:42] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:43 - 20774 - Server - Received: b'{"id":"367","emotion":5}'
+2019-01-15 21:54:43 - 20774 - Server - Update done
+2019-01-15 21:54:43 - 20774 - Server - Response: (99, 'data/a21.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:43 - 20774 - Server - Received: b'{"id":"99","emotion":5}'
+2019-01-15 21:54:43 - 20774 - Server - Update done
+2019-01-15 21:54:43 - 20774 - Server - Response: (601, 'data/b386.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:43 - 20774 - Server - Received: b'{"id":"601","emotion":9}'
+2019-01-15 21:54:43 - 20774 - Server - Update done
+2019-01-15 21:54:43 - 20774 - Server - Response: (558, 'data/x68.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:43 - 20774 - Server - Received: b'{"id":"558","emotion":9}'
+2019-01-15 21:54:43 - 20774 - Server - Update done
+2019-01-15 21:54:43 - 20774 - Server - Response: (211, 'data/h46.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:43 - 20774 - Server - Received: b'{"id":"211","emotion":9}'
+2019-01-15 21:54:43 - 20774 - Server - Update done
+2019-01-15 21:54:43 - 20774 - Server - Response: (432, 'data/g68.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:44 - 20774 - Server - Received: b'{"id":"501","emotion":6}'
+2019-01-15 21:54:44 - 20774 - Server - Update done
+2019-01-15 21:54:44 - 20774 - Server - Response: (747, 'data/i193.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:44 - 20774 - Server - Received: b'{"id":"211","emotion":9}'
+2019-01-15 21:54:44 - 20774 - Server - Update done
+2019-01-15 21:54:44 - 20774 - Server - Response: (784, 'data/d82.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:44 - 20774 - Server - Received: b'{"id":"784","emotion":9}'
+2019-01-15 21:54:44 - 20774 - Server - Update done
+2019-01-15 21:54:44 - 20774 - Server - Response: (405, 'data/d331.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:44 - 20774 - Server - Received: b'{"id":"405","emotion":4}'
+2019-01-15 21:54:44 - 20774 - Server - Update done
+2019-01-15 21:54:44 - 20774 - Server - Response: (847, 'data/x300.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:44 - 20774 - Server - Received: b'{"id":"847","emotion":4}'
+2019-01-15 21:54:44 - 20774 - Server - Update done
+2019-01-15 21:54:44 - 20774 - Server - Response: (112, 'data/h59.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:44 - 20774 - Server - Received: b'{"id":"112","emotion":4}'
+2019-01-15 21:54:44 - 20774 - Server - Update done
+2019-01-15 21:54:44 - 20774 - Server - Response: (322, 'data/b338.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:45 - 20774 - Server - Received: b'{"id":"322","emotion":4}'
+2019-01-15 21:54:45 - 20774 - Server - Update done
+2019-01-15 21:54:45 - 20774 - Server - Response: (15, 'data/j110.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:45 - 20774 - Server - Received: b'{"id":"747","emotion":6}'
+2019-01-15 21:54:45 - 20774 - Server - Update done
+2019-01-15 21:54:45 - 20774 - Server - Response: (710, 'data/x143.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:45 - 20774 - Server - Received: b'{"id":"449","emotion":9}'
+2019-01-15 21:54:45 - 20774 - Server - Update done
+2019-01-15 21:54:45 - 20774 - Server - Response: (775, 'data/e22.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:45 - 20774 - Server - Received: b'{"id":"15","emotion":6}'
+2019-01-15 21:54:45 - 20774 - Server - Update done
+2019-01-15 21:54:45 - 20774 - Server - Response: (382, 'data/h29.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:45 - 20774 - Server - Received: b'{"id":"382","emotion":6}'
+2019-01-15 21:54:45 - 20774 - Server - Update done
+2019-01-15 21:54:45 - 20774 - Server - Response: (812, 'data/e244.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:45 - 20774 - Server - Received: b'{"id":"812","emotion":5}'
+2019-01-15 21:54:45 - 20774 - Server - Update done
+2019-01-15 21:54:45 - 20774 - Server - Response: (479, 'data/d24.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:46 - 20774 - Server - Received: b'{"id":"479","emotion":5}'
+2019-01-15 21:54:46 - 20774 - Server - Update done
+2019-01-15 21:54:46 - 20774 - Server - Response: (404, 'data/b403.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:46] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:46 - 20774 - Server - Received: b'{"id":"404","emotion":5}'
+2019-01-15 21:54:46 - 20774 - Server - Update done
+2019-01-15 21:54:46 - 20774 - Server - Response: (28, 'data/c167.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:46] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:46 - 20774 - Server - Received: b'{"id":"28","emotion":5}'
+2019-01-15 21:54:46 - 20774 - Server - Update done
+2019-01-15 21:54:46 - 20774 - Server - Response: (148, 'data/x47.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:46] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:46 - 20774 - Server - Received: b'{"id":"148","emotion":5}'
+2019-01-15 21:54:46 - 20774 - Server - Update done
+2019-01-15 21:54:46 - 20774 - Server - Response: (175, 'data/h25.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:46] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:46 - 20774 - Server - Received: b'{"id":"175","emotion":6}'
+2019-01-15 21:54:46 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (371, 'data/x78.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:47 - 20774 - Server - Received: b'{"id":"710","emotion":6}'
+2019-01-15 21:54:47 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (722, 'data/h11.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:47 - 20774 - Server - Received: b'{"id":"371","emotion":6}'
+2019-01-15 21:54:47 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (32, 'data/c189.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:47 - 20774 - Server - Received: b'{"id":"32","emotion":6}'
+2019-01-15 21:54:47 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (330, 'data/x125.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:47 - 20774 - Server - Received: b'{"id":"330","emotion":7}'
+2019-01-15 21:54:47 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (639, 'data/a49.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:47 - 20774 - Server - Received: b'{"id":"639","emotion":7}'
+2019-01-15 21:54:47 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (150, 'data/d50.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:47 - 20774 - Server - Received: b'{"id":"150","emotion":7}'
+2019-01-15 21:54:47 - 20774 - Server - Update done
+2019-01-15 21:54:47 - 20774 - Server - Response: (564, 'data/g82.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:48 - 20774 - Server - Received: b'{"id":"564","emotion":7}'
+2019-01-15 21:54:48 - 20774 - Server - Update done
+2019-01-15 21:54:48 - 20774 - Server - Response: (658, 'data/d305.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:48 - 20774 - Server - Received: b'{"id":"658","emotion":4}'
+2019-01-15 21:54:48 - 20774 - Server - Update done
+2019-01-15 21:54:48 - 20774 - Server - Response: (422, 'data/c103.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:48 - 20774 - Server - Received: b'{"id":"422","emotion":6}'
+2019-01-15 21:54:48 - 20774 - Server - Update done
+2019-01-15 21:54:48 - 20774 - Server - Response: (129, 'data/f359.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:48 - 20774 - Server - Received: b'{"id":"129","emotion":5}'
+2019-01-15 21:54:48 - 20774 - Server - Update done
+2019-01-15 21:54:48 - 20774 - Server - Response: (694, 'data/e356.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:49 - 20774 - Server - Received: b'{"id":"694","emotion":5}'
+2019-01-15 21:54:49 - 20774 - Server - Update done
+2019-01-15 21:54:49 - 20774 - Server - Response: (626, 'data/b253.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:49 - 20774 - Server - Received: b'{"id":"626","emotion":5}'
+2019-01-15 21:54:49 - 20774 - Server - Update done
+2019-01-15 21:54:49 - 20774 - Server - Response: (147, 'data/e397.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:49 - 20774 - Server - Received: b'{"id":"147","emotion":8}'
+2019-01-15 21:54:49 - 20774 - Server - Update done
+2019-01-15 21:54:49 - 20774 - Server - Response: (353, 'data/g180.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:49 - 20774 - Server - Received: b'{"id":"353","emotion":8}'
+2019-01-15 21:54:49 - 20774 - Server - Update done
+2019-01-15 21:54:49 - 20774 - Server - Response: (13, 'data/a131.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:50 - 20774 - Server - Received: b'{"id":"13","emotion":3}'
+2019-01-15 21:54:50 - 20774 - Server - Update done
+2019-01-15 21:54:50 - 20774 - Server - Response: (47, 'data/j65.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:50 - 20774 - Server - Received: b'{"id":"47","emotion":4}'
+2019-01-15 21:54:50 - 20774 - Server - Update done
+2019-01-15 21:54:50 - 20774 - Server - Response: (462, 'data/d70.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:50 - 20774 - Server - Received: b'{"id":"462","emotion":4}'
+2019-01-15 21:54:50 - 20774 - Server - Update done
+2019-01-15 21:54:50 - 20774 - Server - Response: (680, 'data/x168.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:50 - 20774 - Server - Received: b'{"id":"722","emotion":5}'
+2019-01-15 21:54:50 - 20774 - Server - Update done
+2019-01-15 21:54:50 - 20774 - Server - Response: (308, 'data/x396.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:50 - 20774 - Server - Received: b'{"id":"680","emotion":6}'
+2019-01-15 21:54:50 - 20774 - Server - Update done
+2019-01-15 21:54:50 - 20774 - Server - Response: (30, 'data/d287.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:51 - 20774 - Server - Received: b'{"id":"30","emotion":6}'
+2019-01-15 21:54:51 - 20774 - Server - Update done
+2019-01-15 21:54:51 - 20774 - Server - Response: (688, 'data/a67.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:51 - 20774 - Server - Received: b'{"id":"688","emotion":5}'
+2019-01-15 21:54:51 - 20774 - Server - Update done
+2019-01-15 21:54:51 - 20774 - Server - Response: (879, 'data/x386.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:51 - 20774 - Server - Received: b'{"id":"879","emotion":8}'
+2019-01-15 21:54:51 - 20774 - Server - Update done
+2019-01-15 21:54:51 - 20774 - Server - Response: (374, 'data/g195.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:51 - 20774 - Server - Received: b'{"id":"374","emotion":8}'
+2019-01-15 21:54:51 - 20774 - Server - Update done
+2019-01-15 21:54:51 - 20774 - Server - Response: (441, 'data/j96.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:51 - 20774 - Server - Received: b'{"id":"441","emotion":8}'
+2019-01-15 21:54:51 - 20774 - Server - Update done
+2019-01-15 21:54:51 - 20774 - Server - Response: (741, 'data/j114.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:52 - 20774 - Server - Received: b'{"id":"741","emotion":9}'
+2019-01-15 21:54:52 - 20774 - Server - Update done
+2019-01-15 21:54:52 - 20774 - Server - Response: (401, 'data/i58.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:52 - 20774 - Server - Received: b'{"id":"401","emotion":4}'
+2019-01-15 21:54:52 - 20774 - Server - Update done
+2019-01-15 21:54:52 - 20774 - Server - Response: (346, 'data/h48.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:52 - 20774 - Server - Received: b'{"id":"775","emotion":5}'
+2019-01-15 21:54:52 - 20774 - Server - Update done
+2019-01-15 21:54:52 - 20774 - Server - Response: (616, 'data/d215.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:52 - 20774 - Server - Received: b'{"id":"346","emotion":4}'
+2019-01-15 21:54:52 - 20774 - Server - Update done
+2019-01-15 21:54:52 - 20774 - Server - Response: (850, 'data/i129.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:53 - 20774 - Server - Received: b'{"id":"850","emotion":7}'
+2019-01-15 21:54:53 - 20774 - Server - Update done
+2019-01-15 21:54:53 - 20774 - Server - Response: (130, 'data/x48.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:53 - 20774 - Server - Received: b'{"id":"308","emotion":5}'
+2019-01-15 21:54:53 - 20774 - Server - Update done
+2019-01-15 21:54:53 - 20774 - Server - Response: (273, 'data/h78.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:53 - 20774 - Server - Received: b'{"id":"130","emotion":7}'
+2019-01-15 21:54:53 - 20774 - Server - Update done
+2019-01-15 21:54:53 - 20774 - Server - Response: (661, 'data/g296.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:53 - 20774 - Server - Received: b'{"id":"661","emotion":6}'
+2019-01-15 21:54:53 - 20774 - Server - Update done
+2019-01-15 21:54:53 - 20774 - Server - Response: (157, 'data/e298.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:53 - 20774 - Server - Received: b'{"id":"157","emotion":5}'
+2019-01-15 21:54:53 - 20774 - Server - Update done
+2019-01-15 21:54:53 - 20774 - Server - Response: (315, 'data/h53.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:53 - 20774 - Server - Received: b'{"id":"315","emotion":5}'
+2019-01-15 21:54:53 - 20774 - Server - Update done
+2019-01-15 21:54:53 - 20774 - Server - Response: (202, 'data/c191.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:54 - 20774 - Server - Received: b'{"id":"202","emotion":8}'
+2019-01-15 21:54:54 - 20774 - Server - Update done
+2019-01-15 21:54:54 - 20774 - Server - Response: (776, 'data/i175.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:54 - 20774 - Server - Received: b'{"id":"776","emotion":8}'
+2019-01-15 21:54:54 - 20774 - Server - Update done
+2019-01-15 21:54:54 - 20774 - Server - Response: (178, 'data/i189.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:54 - 20774 - Server - Received: b'{"id":"178","emotion":8}'
+2019-01-15 21:54:54 - 20774 - Server - Update done
+2019-01-15 21:54:54 - 20774 - Server - Response: (392, 'data/c187.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:54 - 20774 - Server - Received: b'{"id":"616","emotion":7}'
+2019-01-15 21:54:54 - 20774 - Server - Update done
+2019-01-15 21:54:54 - 20774 - Server - Response: (11, 'data/c102.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"392","emotion":3}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (716, 'data/c216.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"273","emotion":6}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (453, 'data/j70.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"716","emotion":3}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (56, 'data/f41.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"56","emotion":4}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (569, 'data/b423.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"569","emotion":4}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (719, 'data/c63.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"719","emotion":4}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (109, 'data/e260.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:55 - 20774 - Server - Received: b'{"id":"109","emotion":7}'
+2019-01-15 21:54:55 - 20774 - Server - Update done
+2019-01-15 21:54:55 - 20774 - Server - Response: (726, 'data/b260.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:56 - 20774 - Server - Received: b'{"id":"726","emotion":6}'
+2019-01-15 21:54:56 - 20774 - Server - Update done
+2019-01-15 21:54:56 - 20774 - Server - Response: (318, 'data/c32.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:56 - 20774 - Server - Received: b'{"id":"318","emotion":6}'
+2019-01-15 21:54:56 - 20774 - Server - Update done
+2019-01-15 21:54:56 - 20774 - Server - Response: (338, 'data/i134.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:56 - 20774 - Server - Received: b'{"id":"338","emotion":5}'
+2019-01-15 21:54:56 - 20774 - Server - Update done
+2019-01-15 21:54:56 - 20774 - Server - Response: (43, 'data/j33.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:56 - 20774 - Server - Received: b'{"id":"43","emotion":5}'
+2019-01-15 21:54:56 - 20774 - Server - Update done
+2019-01-15 21:54:56 - 20774 - Server - Response: (461, 'data/h52.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:56 - 20774 - Server - Received: b'{"id":"461","emotion":5}'
+2019-01-15 21:54:56 - 20774 - Server - Update done
+2019-01-15 21:54:56 - 20774 - Server - Response: (80, 'data/x163.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:57 - 20774 - Server - Received: b'{"id":"80","emotion":5}'
+2019-01-15 21:54:57 - 20774 - Server - Update done
+2019-01-15 21:54:57 - 20774 - Server - Response: (174, 'data/f144.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:57 - 20774 - Server - Received: b'{"id":"174","emotion":6}'
+2019-01-15 21:54:57 - 20774 - Server - Update done
+2019-01-15 21:54:57 - 20774 - Server - Response: (517, 'data/c188.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:57 - 20774 - Server - Received: b'{"id":"453","emotion":8}'
+2019-01-15 21:54:57 - 20774 - Server - Update done
+2019-01-15 21:54:57 - 20774 - Server - Response: (490, 'data/x245.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:57 - 20774 - Server - Received: b'{"id":"517","emotion":6}'
+2019-01-15 21:54:57 - 20774 - Server - Update done
+2019-01-15 21:54:57 - 20774 - Server - Response: (5, 'data/h19.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:57 - 20774 - Server - Received: b'{"id":"5","emotion":6}'
+2019-01-15 21:54:57 - 20774 - Server - Update done
+2019-01-15 21:54:57 - 20774 - Server - Response: (543, 'data/x129.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:58 - 20774 - Server - Received: b'{"id":"543","emotion":6}'
+2019-01-15 21:54:58 - 20774 - Server - Update done
+2019-01-15 21:54:58 - 20774 - Server - Response: (85, 'data/x139.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:58 - 20774 - Server - Received: b'{"id":"85","emotion":7}'
+2019-01-15 21:54:58 - 20774 - Server - Update done
+2019-01-15 21:54:58 - 20774 - Server - Response: (614, 'data/f294.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:58 - 20774 - Server - Received: b'{"id":"614","emotion":7}'
+2019-01-15 21:54:58 - 20774 - Server - Update done
+2019-01-15 21:54:58 - 20774 - Server - Response: (408, 'data/i266.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:58 - 20774 - Server - Received: b'{"id":"408","emotion":7}'
+2019-01-15 21:54:58 - 20774 - Server - Update done
+2019-01-15 21:54:58 - 20774 - Server - Response: (536, 'data/x390.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:59 - 20774 - Server - Received: b'{"id":"536","emotion":6}'
+2019-01-15 21:54:59 - 20774 - Server - Update done
+2019-01-15 21:54:59 - 20774 - Server - Response: (451, 'data/b89.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:59 - 20774 - Server - Received: b'{"id":"451","emotion":8}'
+2019-01-15 21:54:59 - 20774 - Server - Update done
+2019-01-15 21:54:59 - 20774 - Server - Response: (595, 'data/e140.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:59 - 20774 - Server - Received: b'{"id":"595","emotion":8}'
+2019-01-15 21:54:59 - 20774 - Server - Update done
+2019-01-15 21:54:59 - 20774 - Server - Response: (63, 'data/i194.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:59 - 20774 - Server - Received: b'{"id":"63","emotion":2}'
+2019-01-15 21:54:59 - 20774 - Server - Update done
+2019-01-15 21:54:59 - 20774 - Server - Response: (483, 'data/b441.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:54:59 - 20774 - Server - Received: b'{"id":"490","emotion":9}'
+2019-01-15 21:54:59 - 20774 - Server - Update done
+2019-01-15 21:54:59 - 20774 - Server - Response: (834, 'data/a223.jpg')
+127.0.0.1 - - [15/Jan/2019 21:54:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:00 - 20774 - Server - Received: b'{"id":"483","emotion":1}'
+2019-01-15 21:55:00 - 20774 - Server - Update done
+2019-01-15 21:55:00 - 20774 - Server - Response: (837, 'data/x240.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:00 - 20774 - Server - Received: b'{"id":"837","emotion":3}'
+2019-01-15 21:55:00 - 20774 - Server - Update done
+2019-01-15 21:55:00 - 20774 - Server - Response: (513, 'data/x304.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:00 - 20774 - Server - Received: b'{"id":"513","emotion":4}'
+2019-01-15 21:55:00 - 20774 - Server - Update done
+2019-01-15 21:55:00 - 20774 - Server - Response: (612, 'data/i413.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:00 - 20774 - Server - Received: b'{"id":"612","emotion":9}'
+2019-01-15 21:55:00 - 20774 - Server - Update done
+2019-01-15 21:55:00 - 20774 - Server - Response: (712, 'data/d313.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:00 - 20774 - Server - Received: b'{"id":"712","emotion":8}'
+2019-01-15 21:55:00 - 20774 - Server - Update done
+2019-01-15 21:55:00 - 20774 - Server - Response: (67, 'data/d21.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:00 - 20774 - Server - Received: b'{"id":"67","emotion":8}'
+2019-01-15 21:55:00 - 20774 - Server - Update done
+2019-01-15 21:55:01 - 20774 - Server - Response: (66, 'data/a128.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:01 - 20774 - Server - Received: b'{"id":"66","emotion":8}'
+2019-01-15 21:55:01 - 20774 - Server - Update done
+2019-01-15 21:55:01 - 20774 - Server - Response: (761, 'data/g28.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:01 - 20774 - Server - Received: b'{"id":"11","emotion":6}'
+2019-01-15 21:55:01 - 20774 - Server - Update done
+2019-01-15 21:55:01 - 20774 - Server - Response: (766, 'data/g269.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:02 - 20774 - Server - Received: b'{"id":"761","emotion":1}'
+2019-01-15 21:55:02 - 20774 - Server - Update done
+2019-01-15 21:55:02 - 20774 - Server - Response: (128, 'data/h22.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:02 - 20774 - Server - Received: b'{"id":"834","emotion":9}'
+2019-01-15 21:55:02 - 20774 - Server - Update done
+2019-01-15 21:55:02 - 20774 - Server - Response: (585, 'data/i180.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:02 - 20774 - Server - Received: b'{"id":"128","emotion":1}'
+2019-01-15 21:55:02 - 20774 - Server - Update done
+2019-01-15 21:55:02 - 20774 - Server - Response: (619, 'data/h32.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:02 - 20774 - Server - Received: b'{"id":"619","emotion":1}'
+2019-01-15 21:55:02 - 20774 - Server - Update done
+2019-01-15 21:55:02 - 20774 - Server - Response: (54, 'data/f373.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:02 - 20774 - Server - Received: b'{"id":"619","emotion":2}'
+2019-01-15 21:55:02 - 20774 - Server - Update done
+2019-01-15 21:55:02 - 20774 - Server - Response: (854, 'data/g45.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:02 - 20774 - Server - Received: b'{"id":"854","emotion":9}'
+2019-01-15 21:55:02 - 20774 - Server - Update done
+2019-01-15 21:55:02 - 20774 - Server - Response: (751, 'data/d44.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:03 - 20774 - Server - Received: b'{"id":"751","emotion":9}'
+2019-01-15 21:55:03 - 20774 - Server - Update done
+2019-01-15 21:55:03 - 20774 - Server - Response: (512, 'data/g96.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:03 - 20774 - Server - Received: b'{"id":"512","emotion":6}'
+2019-01-15 21:55:03 - 20774 - Server - Update done
+2019-01-15 21:55:03 - 20774 - Server - Response: (675, 'data/i306.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:03 - 20774 - Server - Received: b'{"id":"675","emotion":4}'
+2019-01-15 21:55:03 - 20774 - Server - Update done
+2019-01-15 21:55:03 - 20774 - Server - Response: (325, 'data/f45.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"585","emotion":8}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (134, 'data/a289.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"325","emotion":4}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (666, 'data/d28.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"766","emotion":9}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (485, 'data/d330.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"666","emotion":3}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (646, 'data/f180.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"646","emotion":1}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (450, 'data/x51.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"450","emotion":8}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (809, 'data/f377.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:04 - 20774 - Server - Received: b'{"id":"809","emotion":8}'
+2019-01-15 21:55:04 - 20774 - Server - Update done
+2019-01-15 21:55:04 - 20774 - Server - Response: (349, 'data/a344.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:05 - 20774 - Server - Received: b'{"id":"134","emotion":9}'
+2019-01-15 21:55:05 - 20774 - Server - Update done
+2019-01-15 21:55:05 - 20774 - Server - Response: (213, 'data/j43.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:05 - 20774 - Server - Received: b'{"id":"349","emotion":1}'
+2019-01-15 21:55:05 - 20774 - Server - Update done
+2019-01-15 21:55:05 - 20774 - Server - Response: (324, 'data/h64.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:05 - 20774 - Server - Received: b'{"id":"324","emotion":4}'
+2019-01-15 21:55:05 - 20774 - Server - Update done
+2019-01-15 21:55:05 - 20774 - Server - Response: (573, 'data/j45.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:06 - 20774 - Server - Received: b'{"id":"573","emotion":4}'
+2019-01-15 21:55:06 - 20774 - Server - Update done
+2019-01-15 21:55:06 - 20774 - Server - Response: (430, 'data/b363.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:06 - 20774 - Server - Received: b'{"id":"430","emotion":7}'
+2019-01-15 21:55:06 - 20774 - Server - Update done
+2019-01-15 21:55:06 - 20774 - Server - Response: (412, 'data/a277.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:06 - 20774 - Server - Received: b'{"id":"412","emotion":7}'
+2019-01-15 21:55:06 - 20774 - Server - Update done
+2019-01-15 21:55:06 - 20774 - Server - Response: (792, 'data/i390.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:06 - 20774 - Server - Received: b'{"id":"792","emotion":7}'
+2019-01-15 21:55:06 - 20774 - Server - Update done
+2019-01-15 21:55:06 - 20774 - Server - Response: (230, 'data/i232.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:07 - 20774 - Server - Received: b'{"id":"230","emotion":6}'
+2019-01-15 21:55:07 - 20774 - Server - Update done
+2019-01-15 21:55:07 - 20774 - Server - Response: (724, 'data/c71.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:07] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:07 - 20774 - Server - Received: b'{"id":"724","emotion":6}'
+2019-01-15 21:55:07 - 20774 - Server - Update done
+2019-01-15 21:55:07 - 20774 - Server - Response: (755, 'data/h80.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:07] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:07 - 20774 - Server - Received: b'{"id":"755","emotion":6}'
+2019-01-15 21:55:07 - 20774 - Server - Update done
+2019-01-15 21:55:07 - 20774 - Server - Response: (629, 'data/e215.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:07] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:08 - 20774 - Server - Received: b'{"id":"629","emotion":6}'
+2019-01-15 21:55:08 - 20774 - Server - Update done
+2019-01-15 21:55:08 - 20774 - Server - Response: (811, 'data/b299.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:08 - 20774 - Server - Received: b'{"id":"811","emotion":6}'
+2019-01-15 21:55:08 - 20774 - Server - Update done
+2019-01-15 21:55:08 - 20774 - Server - Response: (433, 'data/e192.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:08 - 20774 - Server - Received: b'{"id":"213","emotion":5}'
+2019-01-15 21:55:08 - 20774 - Server - Update done
+2019-01-15 21:55:08 - 20774 - Server - Response: (624, 'data/h55.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:08 - 20774 - Server - Received: b'{"id":"433","emotion":6}'
+2019-01-15 21:55:08 - 20774 - Server - Update done
+2019-01-15 21:55:08 - 20774 - Server - Response: (163, 'data/e416.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:08 - 20774 - Server - Received: b'{"id":"163","emotion":6}'
+2019-01-15 21:55:08 - 20774 - Server - Update done
+2019-01-15 21:55:08 - 20774 - Server - Response: (303, 'data/j27.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:08 - 20774 - Server - Received: b'{"id":"303","emotion":6}'
+2019-01-15 21:55:08 - 20774 - Server - Update done
+2019-01-15 21:55:08 - 20774 - Server - Response: (810, 'data/j12.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:09 - 20774 - Server - Received: b'{"id":"810","emotion":6}'
+2019-01-15 21:55:09 - 20774 - Server - Update done
+2019-01-15 21:55:09 - 20774 - Server - Response: (623, 'data/c110.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:09 - 20774 - Server - Received: b'{"id":"623","emotion":6}'
+2019-01-15 21:55:09 - 20774 - Server - Update done
+2019-01-15 21:55:09 - 20774 - Server - Response: (798, 'data/e249.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:09 - 20774 - Server - Received: b'{"id":"798","emotion":6}'
+2019-01-15 21:55:09 - 20774 - Server - Update done
+2019-01-15 21:55:09 - 20774 - Server - Response: (200, 'data/e208.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:09 - 20774 - Server - Received: b'{"id":"200","emotion":5}'
+2019-01-15 21:55:09 - 20774 - Server - Update done
+2019-01-15 21:55:09 - 20774 - Server - Response: (142, 'data/d62.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:09 - 20774 - Server - Received: b'{"id":"624","emotion":5}'
+2019-01-15 21:55:09 - 20774 - Server - Update done
+2019-01-15 21:55:09 - 20774 - Server - Response: (314, 'data/h83.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:09 - 20774 - Server - Received: b'{"id":"142","emotion":5}'
+2019-01-15 21:55:09 - 20774 - Server - Update done
+2019-01-15 21:55:09 - 20774 - Server - Response: (454, 'data/i77.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:10 - 20774 - Server - Received: b'{"id":"454","emotion":5}'
+2019-01-15 21:55:10 - 20774 - Server - Update done
+2019-01-15 21:55:10 - 20774 - Server - Response: (647, 'data/a82.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:10 - 20774 - Server - Received: b'{"id":"647","emotion":5}'
+2019-01-15 21:55:10 - 20774 - Server - Update done
+2019-01-15 21:55:10 - 20774 - Server - Response: (26, 'data/h13.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:10 - 20774 - Server - Received: b'{"id":"26","emotion":5}'
+2019-01-15 21:55:10 - 20774 - Server - Update done
+2019-01-15 21:55:10 - 20774 - Server - Response: (474, 'data/i302.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:10 - 20774 - Server - Received: b'{"id":"485","emotion":6}'
+2019-01-15 21:55:10 - 20774 - Server - Update done
+2019-01-15 21:55:10 - 20774 - Server - Response: (727, 'data/b173.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:10 - 20774 - Server - Received: b'{"id":"474","emotion":6}'
+2019-01-15 21:55:10 - 20774 - Server - Update done
+2019-01-15 21:55:10 - 20774 - Server - Response: (365, 'data/e322.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:11 - 20774 - Server - Received: b'{"id":"365","emotion":7}'
+2019-01-15 21:55:11 - 20774 - Server - Update done
+2019-01-15 21:55:11 - 20774 - Server - Response: (335, 'data/x43.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:11 - 20774 - Server - Received: b'{"id":"335","emotion":7}'
+2019-01-15 21:55:11 - 20774 - Server - Update done
+2019-01-15 21:55:11 - 20774 - Server - Response: (123, 'data/e17.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:11 - 20774 - Server - Received: b'{"id":"123","emotion":7}'
+2019-01-15 21:55:11 - 20774 - Server - Update done
+2019-01-15 21:55:11 - 20774 - Server - Response: (168, 'data/b171.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:11 - 20774 - Server - Received: b'{"id":"168","emotion":7}'
+2019-01-15 21:55:11 - 20774 - Server - Update done
+2019-01-15 21:55:11 - 20774 - Server - Response: (207, 'data/d13.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:11 - 20774 - Server - Received: b'{"id":"207","emotion":7}'
+2019-01-15 21:55:11 - 20774 - Server - Update done
+2019-01-15 21:55:11 - 20774 - Server - Response: (665, 'data/a191.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"665","emotion":7}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (860, 'data/j101.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"727","emotion":6}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (813, 'data/f401.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"860","emotion":7}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (836, 'data/x203.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"836","emotion":7}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (445, 'data/h45.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"445","emotion":7}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (554, 'data/e386.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"554","emotion":7}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (484, 'data/g260.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:12 - 20774 - Server - Received: b'{"id":"813","emotion":6}'
+2019-01-15 21:55:12 - 20774 - Server - Update done
+2019-01-15 21:55:12 - 20774 - Server - Response: (643, 'data/h60.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:13 - 20774 - Server - Received: b'{"id":"484","emotion":7}'
+2019-01-15 21:55:13 - 20774 - Server - Update done
+2019-01-15 21:55:13 - 20774 - Server - Response: (8, 'data/a173.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:16 - 20774 - Server - Received: b'{"id":"643","emotion":5}'
+2019-01-15 21:55:16 - 20774 - Server - Update done
+2019-01-15 21:55:16 - 20774 - Server - Response: (548, 'data/d236.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:16] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:16 - 20774 - Server - Response: (110, 'data/x134.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:16] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:55:17 - 20774 - Server - Received: b'{"id":"548","emotion":5}'
+2019-01-15 21:55:17 - 20774 - Server - Update done
+2019-01-15 21:55:17 - 20774 - Server - Response: (496, 'data/i115.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:22 - 20774 - Server - Received: b'{"id":"110","emotion":5}'
+2019-01-15 21:55:22 - 20774 - Server - Update done
+2019-01-15 21:55:22 - 20774 - Server - Response: (729, 'data/h7.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:22] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:55:24 - 20774 - Server - Received: b'{"id":"729","emotion":5}'
+2019-01-15 21:55:24 - 20774 - Server - Update done
+2019-01-15 21:55:24 - 20774 - Server - Response: (486, 'data/i288.jpg')
+127.0.0.1 - - [15/Jan/2019 21:55:24] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:12 - 20774 - Server - Received: b'{"id":"496","emotion":7}'
+2019-01-15 21:56:12 - 20774 - Server - Update done
+2019-01-15 21:56:12 - 20774 - Server - Response: (532, 'data/j100.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:13 - 20774 - Server - Received: b'{"id":"532","emotion":5}'
+2019-01-15 21:56:13 - 20774 - Server - Update done
+2019-01-15 21:56:13 - 20774 - Server - Response: (369, 'data/h4.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:15 - 20774 - Server - Received: b'{"id":"369","emotion":5}'
+2019-01-15 21:56:15 - 20774 - Server - Update done
+2019-01-15 21:56:15 - 20774 - Server - Response: (340, 'data/x359.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:15] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:18 - 20774 - Server - Received: b'{"id":"340","emotion":7}'
+2019-01-15 21:56:18 - 20774 - Server - Update done
+2019-01-15 21:56:18 - 20774 - Server - Response: (720, 'data/a365.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:18] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:20 - 20774 - Server - Response: (464, 'data/g235.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:20] "GET /face HTTP/1.0" 200 -
+2019-01-15 21:56:21 - 20774 - Server - Received: b'{"id":"720","emotion":4}'
+2019-01-15 21:56:21 - 20774 - Server - Update done
+2019-01-15 21:56:21 - 20774 - Server - Response: (116, 'data/f391.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:21] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:22 - 20774 - Server - Received: b'{"id":"116","emotion":5}'
+2019-01-15 21:56:22 - 20774 - Server - Update done
+2019-01-15 21:56:22 - 20774 - Server - Response: (697, 'data/c33.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:22] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:25 - 20774 - Server - Received: b'{"id":"697","emotion":6}'
+2019-01-15 21:56:25 - 20774 - Server - Update done
+2019-01-15 21:56:25 - 20774 - Server - Response: (224, 'data/e64.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:26 - 20774 - Server - Received: b'{"id":"224","emotion":6}'
+2019-01-15 21:56:26 - 20774 - Server - Update done
+2019-01-15 21:56:26 - 20774 - Server - Response: (822, 'data/i198.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:26] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:29 - 20774 - Server - Received: b'{"id":"464","emotion":2}'
+2019-01-15 21:56:29 - 20774 - Server - Update done
+2019-01-15 21:56:29 - 20774 - Server - Response: (785, 'data/d79.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:29] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:33 - 20774 - Server - Received: b'{"id":"785","emotion":4}'
+2019-01-15 21:56:33 - 20774 - Server - Update done
+2019-01-15 21:56:33 - 20774 - Server - Response: (593, 'data/e153.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:40 - 20774 - Server - Received: b'{"id":"593","emotion":9}'
+2019-01-15 21:56:40 - 20774 - Server - Update done
+2019-01-15 21:56:40 - 20774 - Server - Response: (637, 'data/g251.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:40] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:48 - 20774 - Server - Received: b'{"id":"637","emotion":8}'
+2019-01-15 21:56:48 - 20774 - Server - Update done
+2019-01-15 21:56:48 - 20774 - Server - Response: (725, 'data/j13.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:53 - 20774 - Server - Received: b'{"id":"725","emotion":5}'
+2019-01-15 21:56:53 - 20774 - Server - Update done
+2019-01-15 21:56:53 - 20774 - Server - Response: (878, 'data/h44.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:56 - 20774 - Server - Received: b'{"id":"878","emotion":5}'
+2019-01-15 21:56:56 - 20774 - Server - Update done
+2019-01-15 21:56:56 - 20774 - Server - Response: (613, 'data/f299.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:56:57 - 20774 - Server - Received: b'{"id":"613","emotion":5}'
+2019-01-15 21:56:57 - 20774 - Server - Update done
+2019-01-15 21:56:57 - 20774 - Server - Response: (534, 'data/i32.jpg')
+127.0.0.1 - - [15/Jan/2019 21:56:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:01 - 20774 - Server - Received: b'{"id":"534","emotion":6}'
+2019-01-15 21:57:01 - 20774 - Server - Update done
+2019-01-15 21:57:01 - 20774 - Server - Response: (8, 'data/a173.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:09 - 20774 - Server - Received: b'{"id":"8","emotion":8}'
+2019-01-15 21:57:09 - 20774 - Server - Update done
+2019-01-15 21:57:09 - 20774 - Server - Response: (156, 'data/e269.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:11 - 20774 - Server - Received: b'{"id":"156","emotion":6}'
+2019-01-15 21:57:11 - 20774 - Server - Update done
+2019-01-15 21:57:11 - 20774 - Server - Response: (498, 'data/f143.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:20 - 20774 - Server - Received: b'{"id":"498","emotion":3}'
+2019-01-15 21:57:20 - 20774 - Server - Update done
+2019-01-15 21:57:20 - 20774 - Server - Response: (477, 'data/e134.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:20] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:24 - 20774 - Server - Received: b'{"id":"477","emotion":8}'
+2019-01-15 21:57:24 - 20774 - Server - Update done
+2019-01-15 21:57:24 - 20774 - Server - Response: (249, 'data/d253.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:24] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:31 - 20774 - Server - Received: b'{"id":"249","emotion":4}'
+2019-01-15 21:57:31 - 20774 - Server - Update done
+2019-01-15 21:57:31 - 20774 - Server - Response: (749, 'data/f275.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:33 - 20774 - Server - Received: b'{"id":"749","emotion":5}'
+2019-01-15 21:57:33 - 20774 - Server - Update done
+2019-01-15 21:57:33 - 20774 - Server - Response: (261, 'data/c232.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:36 - 20774 - Server - Received: b'{"id":"261","emotion":7}'
+2019-01-15 21:57:36 - 20774 - Server - Update done
+2019-01-15 21:57:36 - 20774 - Server - Response: (704, 'data/i28.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:36] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:42 - 20774 - Server - Received: b'{"id":"704","emotion":7}'
+2019-01-15 21:57:42 - 20774 - Server - Update done
+2019-01-15 21:57:42 - 20774 - Server - Response: (126, 'data/x133.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:42] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:48 - 20774 - Server - Received: b'{"id":"126","emotion":9}'
+2019-01-15 21:57:48 - 20774 - Server - Update done
+2019-01-15 21:57:48 - 20774 - Server - Response: (849, 'data/x55.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:52 - 20774 - Server - Received: b'{"id":"849","emotion":6}'
+2019-01-15 21:57:52 - 20774 - Server - Update done
+2019-01-15 21:57:52 - 20774 - Server - Response: (350, 'data/j134.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:57:56 - 20774 - Server - Received: b'{"id":"350","emotion":8}'
+2019-01-15 21:57:56 - 20774 - Server - Update done
+2019-01-15 21:57:56 - 20774 - Server - Response: (817, 'data/a102.jpg')
+127.0.0.1 - - [15/Jan/2019 21:57:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:00 - 20774 - Server - Received: b'{"id":"817","emotion":8}'
+2019-01-15 21:58:00 - 20774 - Server - Update done
+2019-01-15 21:58:00 - 20774 - Server - Response: (677, 'data/a272.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:03 - 20774 - Server - Received: b'{"id":"677","emotion":8}'
+2019-01-15 21:58:03 - 20774 - Server - Update done
+2019-01-15 21:58:03 - 20774 - Server - Response: (702, 'data/d300.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:05 - 20774 - Server - Received: b'{"id":"702","emotion":4}'
+2019-01-15 21:58:05 - 20774 - Server - Update done
+2019-01-15 21:58:05 - 20774 - Server - Response: (803, 'data/e95.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:13 - 20774 - Server - Received: b'{"id":"803","emotion":9}'
+2019-01-15 21:58:13 - 20774 - Server - Update done
+2019-01-15 21:58:13 - 20774 - Server - Response: (594, 'data/x16.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:18 - 20774 - Server - Received: b'{"id":"594","emotion":6}'
+2019-01-15 21:58:18 - 20774 - Server - Update done
+2019-01-15 21:58:18 - 20774 - Server - Response: (748, 'data/e16.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:18] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:23 - 20774 - Server - Received: b'{"id":"748","emotion":5}'
+2019-01-15 21:58:23 - 20774 - Server - Update done
+2019-01-15 21:58:23 - 20774 - Server - Response: (387, 'data/h41.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:23] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:25 - 20774 - Server - Received: b'{"id":"387","emotion":5}'
+2019-01-15 21:58:25 - 20774 - Server - Update done
+2019-01-15 21:58:25 - 20774 - Server - Response: (475, 'data/e103.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:27 - 20774 - Server - Received: b'{"id":"475","emotion":5}'
+2019-01-15 21:58:27 - 20774 - Server - Update done
+2019-01-15 21:58:27 - 20774 - Server - Response: (572, 'data/e114.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:27] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:31 - 20774 - Server - Received: b'{"id":"572","emotion":7}'
+2019-01-15 21:58:31 - 20774 - Server - Update done
+2019-01-15 21:58:31 - 20774 - Server - Response: (596, 'data/d275.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:33 - 20774 - Server - Received: b'{"id":"596","emotion":6}'
+2019-01-15 21:58:33 - 20774 - Server - Update done
+2019-01-15 21:58:33 - 20774 - Server - Response: (670, 'data/x153.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:36 - 20774 - Server - Received: b'{"id":"670","emotion":9}'
+2019-01-15 21:58:36 - 20774 - Server - Update done
+2019-01-15 21:58:36 - 20774 - Server - Response: (808, 'data/b182.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:36] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:39 - 20774 - Server - Received: b'{"id":"808","emotion":6}'
+2019-01-15 21:58:39 - 20774 - Server - Update done
+2019-01-15 21:58:39 - 20774 - Server - Response: (528, 'data/e27.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:39] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:43 - 20774 - Server - Received: b'{"id":"528","emotion":8}'
+2019-01-15 21:58:43 - 20774 - Server - Update done
+2019-01-15 21:58:43 - 20774 - Server - Response: (25, 'data/j106.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:44 - 20774 - Server - Received: b'{"id":"25","emotion":5}'
+2019-01-15 21:58:44 - 20774 - Server - Update done
+2019-01-15 21:58:44 - 20774 - Server - Response: (184, 'data/h24.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:44 - 20774 - Server - Received: b'{"id":"184","emotion":5}'
+2019-01-15 21:58:44 - 20774 - Server - Update done
+2019-01-15 21:58:44 - 20774 - Server - Response: (169, 'data/h12.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:47 - 20774 - Server - Received: b'{"id":"169","emotion":5}'
+2019-01-15 21:58:47 - 20774 - Server - Update done
+2019-01-15 21:58:47 - 20774 - Server - Response: (533, 'data/x34.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:47] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:49 - 20774 - Server - Received: b'{"id":"533","emotion":5}'
+2019-01-15 21:58:49 - 20774 - Server - Update done
+2019-01-15 21:58:49 - 20774 - Server - Response: (653, 'data/h50.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:50 - 20774 - Server - Received: b'{"id":"653","emotion":5}'
+2019-01-15 21:58:50 - 20774 - Server - Update done
+2019-01-15 21:58:50 - 20774 - Server - Response: (526, 'data/i47.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:52 - 20774 - Server - Received: b'{"id":"526","emotion":5}'
+2019-01-15 21:58:52 - 20774 - Server - Update done
+2019-01-15 21:58:52 - 20774 - Server - Response: (253, 'data/h56.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:58:56 - 20774 - Server - Received: b'{"id":"253","emotion":8}'
+2019-01-15 21:58:56 - 20774 - Server - Update done
+2019-01-15 21:58:56 - 20774 - Server - Response: (186, 'data/j72.jpg')
+127.0.0.1 - - [15/Jan/2019 21:58:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:01 - 20774 - Server - Received: b'{"id":"186","emotion":5}'
+2019-01-15 21:59:01 - 20774 - Server - Update done
+2019-01-15 21:59:01 - 20774 - Server - Response: (551, 'data/x144.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:06 - 20774 - Server - Received: b'{"id":"551","emotion":6}'
+2019-01-15 21:59:06 - 20774 - Server - Update done
+2019-01-15 21:59:06 - 20774 - Server - Response: (703, 'data/i378.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:14 - 20774 - Server - Received: b'{"id":"703","emotion":5}'
+2019-01-15 21:59:14 - 20774 - Server - Update done
+2019-01-15 21:59:14 - 20774 - Server - Response: (481, 'data/x121.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:14] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:17 - 20774 - Server - Received: b'{"id":"481","emotion":6}'
+2019-01-15 21:59:17 - 20774 - Server - Update done
+2019-01-15 21:59:17 - 20774 - Server - Response: (570, 'data/e338.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:20 - 20774 - Server - Received: b'{"id":"570","emotion":4}'
+2019-01-15 21:59:20 - 20774 - Server - Update done
+2019-01-15 21:59:20 - 20774 - Server - Response: (143, 'data/i226.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:20] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:25 - 20774 - Server - Received: b'{"id":"143","emotion":8}'
+2019-01-15 21:59:25 - 20774 - Server - Update done
+2019-01-15 21:59:25 - 20774 - Server - Response: (180, 'data/h68.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:27 - 20774 - Server - Received: b'{"id":"180","emotion":5}'
+2019-01-15 21:59:27 - 20774 - Server - Update done
+2019-01-15 21:59:27 - 20774 - Server - Response: (833, 'data/d26.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:27] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:28 - 20774 - Server - Received: b'{"id":"833","emotion":5}'
+2019-01-15 21:59:28 - 20774 - Server - Update done
+2019-01-15 21:59:28 - 20774 - Server - Response: (448, 'data/j62.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:30 - 20774 - Server - Received: b'{"id":"448","emotion":4}'
+2019-01-15 21:59:30 - 20774 - Server - Update done
+2019-01-15 21:59:30 - 20774 - Server - Response: (341, 'data/g106.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:30] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:31 - 20774 - Server - Received: b'{"id":"341","emotion":8}'
+2019-01-15 21:59:31 - 20774 - Server - Update done
+2019-01-15 21:59:31 - 20774 - Server - Response: (160, 'data/c22.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:31 - 20774 - Server - Received: b'{"id":"160","emotion":7}'
+2019-01-15 21:59:31 - 20774 - Server - Update done
+2019-01-15 21:59:31 - 20774 - Server - Response: (358, 'data/c16.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:31 - 20774 - Server - Received: b'{"id":"358","emotion":5}'
+2019-01-15 21:59:31 - 20774 - Server - Update done
+2019-01-15 21:59:31 - 20774 - Server - Response: (599, 'data/g137.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:31 - 20774 - Server - Received: b'{"id":"599","emotion":3}'
+2019-01-15 21:59:31 - 20774 - Server - Update done
+2019-01-15 21:59:31 - 20774 - Server - Response: (518, 'data/i358.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:32 - 20774 - Server - Received: b'{"id":"518","emotion":5}'
+2019-01-15 21:59:32 - 20774 - Server - Update done
+2019-01-15 21:59:32 - 20774 - Server - Response: (859, 'data/g241.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:32 - 20774 - Server - Received: b'{"id":"859","emotion":7}'
+2019-01-15 21:59:32 - 20774 - Server - Update done
+2019-01-15 21:59:32 - 20774 - Server - Response: (552, 'data/j54.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:32 - 20774 - Server - Received: b'{"id":"552","emotion":5}'
+2019-01-15 21:59:32 - 20774 - Server - Update done
+2019-01-15 21:59:32 - 20774 - Server - Response: (331, 'data/b164.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:32 - 20774 - Server - Received: b'{"id":"552","emotion":7}'
+2019-01-15 21:59:32 - 20774 - Server - Update done
+2019-01-15 21:59:32 - 20774 - Server - Response: (138, 'data/a47.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:33 - 20774 - Server - Received: b'{"id":"138","emotion":8}'
+2019-01-15 21:59:33 - 20774 - Server - Update done
+2019-01-15 21:59:33 - 20774 - Server - Response: (638, 'data/h81.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 21:59:33 - 20774 - Server - Received: b'{"id":"138","emotion":4}'
+2019-01-15 21:59:33 - 20774 - Server - Update done
+2019-01-15 21:59:33 - 20774 - Server - Response: (764, 'data/g5.jpg')
+127.0.0.1 - - [15/Jan/2019 21:59:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:17 - 20774 - Server - Response: (788, 'data/e383.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:17] "GET /face HTTP/1.0" 200 -
+2019-01-15 22:17:28 - 20774 - Server - Received: b'{"id":"788","emotion":7}'
+2019-01-15 22:17:28 - 20774 - Server - Update done
+2019-01-15 22:17:28 - 20774 - Server - Response: (45, 'data/f244.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:31 - 20774 - Server - Received: b'{"id":"45","emotion":5}'
+2019-01-15 22:17:31 - 20774 - Server - Update done
+2019-01-15 22:17:31 - 20774 - Server - Response: (579, 'data/f343.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:33 - 20774 - Server - Received: b'{"id":"579","emotion":6}'
+2019-01-15 22:17:33 - 20774 - Server - Update done
+2019-01-15 22:17:33 - 20774 - Server - Response: (232, 'data/d283.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:34 - 20774 - Server - Received: b'{"id":"232","emotion":6}'
+2019-01-15 22:17:34 - 20774 - Server - Update done
+2019-01-15 22:17:34 - 20774 - Server - Response: (470, 'data/f302.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:34] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:35 - 20774 - Server - Received: b'{"id":"470","emotion":5}'
+2019-01-15 22:17:35 - 20774 - Server - Update done
+2019-01-15 22:17:35 - 20774 - Server - Response: (51, 'data/c84.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:35] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:38 - 20774 - Server - Received: b'{"id":"51","emotion":4}'
+2019-01-15 22:17:38 - 20774 - Server - Update done
+2019-01-15 22:17:38 - 20774 - Server - Response: (302, 'data/e196.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:38] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:41 - 20774 - Server - Received: b'{"id":"302","emotion":2}'
+2019-01-15 22:17:41 - 20774 - Server - Update done
+2019-01-15 22:17:41 - 20774 - Server - Response: (756, 'data/f172.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:41] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:43 - 20774 - Server - Received: b'{"id":"756","emotion":5}'
+2019-01-15 22:17:43 - 20774 - Server - Update done
+2019-01-15 22:17:43 - 20774 - Server - Response: (830, 'data/d0.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:45 - 20774 - Server - Received: b'{"id":"830","emotion":5}'
+2019-01-15 22:17:45 - 20774 - Server - Update done
+2019-01-15 22:17:45 - 20774 - Server - Response: (875, 'data/f411.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:45] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:46 - 20774 - Server - Received: b'{"id":"875","emotion":5}'
+2019-01-15 22:17:46 - 20774 - Server - Update done
+2019-01-15 22:17:46 - 20774 - Server - Response: (380, 'data/e400.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:46] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:49 - 20774 - Server - Received: b'{"id":"380","emotion":8}'
+2019-01-15 22:17:49 - 20774 - Server - Update done
+2019-01-15 22:17:49 - 20774 - Server - Response: (269, 'data/i396.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:50 - 20774 - Server - Received: b'{"id":"269","emotion":5}'
+2019-01-15 22:17:50 - 20774 - Server - Update done
+2019-01-15 22:17:50 - 20774 - Server - Response: (519, 'data/d57.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:51 - 20774 - Server - Received: b'{"id":"519","emotion":5}'
+2019-01-15 22:17:51 - 20774 - Server - Update done
+2019-01-15 22:17:52 - 20774 - Server - Response: (36, 'data/b416.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:54 - 20774 - Server - Received: b'{"id":"36","emotion":3}'
+2019-01-15 22:17:54 - 20774 - Server - Update done
+2019-01-15 22:17:54 - 20774 - Server - Response: (459, 'data/a168.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:54] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:55 - 20774 - Server - Received: b'{"id":"459","emotion":3}'
+2019-01-15 22:17:55 - 20774 - Server - Update done
+2019-01-15 22:17:55 - 20774 - Server - Response: (753, 'data/e387.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:17:59 - 20774 - Server - Received: b'{"id":"753","emotion":5}'
+2019-01-15 22:17:59 - 20774 - Server - Update done
+2019-01-15 22:17:59 - 20774 - Server - Response: (309, 'data/i242.jpg')
+127.0.0.1 - - [15/Jan/2019 22:17:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:00 - 20774 - Server - Received: b'{"id":"309","emotion":6}'
+2019-01-15 22:18:00 - 20774 - Server - Update done
+2019-01-15 22:18:00 - 20774 - Server - Response: (170, 'data/h77.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:00] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:02 - 20774 - Server - Received: b'{"id":"170","emotion":2}'
+2019-01-15 22:18:02 - 20774 - Server - Update done
+2019-01-15 22:18:02 - 20774 - Server - Response: (415, 'data/b175.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:07 - 20774 - Server - Received: b'{"id":"415","emotion":1}'
+2019-01-15 22:18:07 - 20774 - Server - Update done
+2019-01-15 22:18:07 - 20774 - Server - Response: (831, 'data/a279.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:07] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:08 - 20774 - Server - Received: b'{"id":"831","emotion":1}'
+2019-01-15 22:18:08 - 20774 - Server - Update done
+2019-01-15 22:18:08 - 20774 - Server - Response: (217, 'data/d134.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:11 - 20774 - Server - Received: b'{"id":"217","emotion":4}'
+2019-01-15 22:18:11 - 20774 - Server - Update done
+2019-01-15 22:18:11 - 20774 - Server - Response: (713, 'data/e393.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:11] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:12 - 20774 - Server - Received: b'{"id":"713","emotion":7}'
+2019-01-15 22:18:12 - 20774 - Server - Update done
+2019-01-15 22:18:12 - 20774 - Server - Response: (617, 'data/e4.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:15 - 20774 - Server - Received: b'{"id":"617","emotion":4}'
+2019-01-15 22:18:15 - 20774 - Server - Update done
+2019-01-15 22:18:15 - 20774 - Server - Response: (678, 'data/a244.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:15] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:17 - 20774 - Server - Received: b'{"id":"678","emotion":7}'
+2019-01-15 22:18:17 - 20774 - Server - Update done
+2019-01-15 22:18:17 - 20774 - Server - Response: (294, 'data/d327.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:19 - 20774 - Server - Received: b'{"id":"294","emotion":6}'
+2019-01-15 22:18:19 - 20774 - Server - Update done
+2019-01-15 22:18:19 - 20774 - Server - Response: (827, 'data/i375.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:19] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:26 - 20774 - Server - Received: b'{"id":"827","emotion":5}'
+2019-01-15 22:18:26 - 20774 - Server - Update done
+2019-01-15 22:18:26 - 20774 - Server - Response: (645, 'data/h42.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:26] "PUT /face HTTP/1.0" 200 -
+2019-01-15 22:18:31 - 20774 - Server - Received: b'{"id":"645","emotion":9}'
+2019-01-15 22:18:31 - 20774 - Server - Update done
+2019-01-15 22:18:31 - 20774 - Server - Response: (768, 'data/e279.jpg')
+127.0.0.1 - - [15/Jan/2019 22:18:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:51:52 - 20774 - Server - Response: (421, 'data/a69.jpg')
+127.0.0.1 - - [15/Jan/2019 23:51:52] "GET /face HTTP/1.0" 200 -
+2019-01-15 23:53:06 - 20774 - Server - Received: b'{"id":"421","emotion":7}'
+2019-01-15 23:53:06 - 20774 - Server - Update done
+2019-01-15 23:53:06 - 20774 - Server - Response: (592, 'data/x339.jpg')
+127.0.0.1 - - [15/Jan/2019 23:53:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:19 - 20774 - Server - Received: b'{"id":"592","emotion":6}'
+2019-01-15 23:54:19 - 20774 - Server - Update done
+2019-01-15 23:54:19 - 20774 - Server - Response: (331, 'data/b164.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:19] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:24 - 20774 - Server - Received: b'{"id":"331","emotion":5}'
+2019-01-15 23:54:24 - 20774 - Server - Update done
+2019-01-15 23:54:24 - 20774 - Server - Response: (241, 'data/b347.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:24] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:28 - 20774 - Server - Received: b'{"id":"241","emotion":8}'
+2019-01-15 23:54:28 - 20774 - Server - Update done
+2019-01-15 23:54:28 - 20774 - Server - Response: (835, 'data/b290.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:32 - 20774 - Server - Received: b'{"id":"835","emotion":4}'
+2019-01-15 23:54:32 - 20774 - Server - Update done
+2019-01-15 23:54:32 - 20774 - Server - Response: (343, 'data/x75.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:43 - 20774 - Server - Received: b'{"id":"343","emotion":9}'
+2019-01-15 23:54:43 - 20774 - Server - Update done
+2019-01-15 23:54:43 - 20774 - Server - Response: (505, 'data/c80.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:43] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:48 - 20774 - Server - Received: b'{"id":"505","emotion":6}'
+2019-01-15 23:54:48 - 20774 - Server - Update done
+2019-01-15 23:54:48 - 20774 - Server - Response: (265, 'data/x314.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:53 - 20774 - Server - Received: b'{"id":"265","emotion":2}'
+2019-01-15 23:54:53 - 20774 - Server - Update done
+2019-01-15 23:54:53 - 20774 - Server - Response: (337, 'data/i176.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:54:57 - 20774 - Server - Received: b'{"id":"337","emotion":6}'
+2019-01-15 23:54:57 - 20774 - Server - Update done
+2019-01-15 23:54:57 - 20774 - Server - Response: (537, 'data/g230.jpg')
+127.0.0.1 - - [15/Jan/2019 23:54:57] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:55:01 - 20774 - Server - Received: b'{"id":"537","emotion":8}'
+2019-01-15 23:55:01 - 20774 - Server - Update done
+2019-01-15 23:55:01 - 20774 - Server - Response: (407, 'data/c156.jpg')
+127.0.0.1 - - [15/Jan/2019 23:55:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:55:03 - 20774 - Server - Received: b'{"id":"407","emotion":6}'
+2019-01-15 23:55:03 - 20774 - Server - Update done
+2019-01-15 23:55:03 - 20774 - Server - Response: (842, 'data/c168.jpg')
+127.0.0.1 - - [15/Jan/2019 23:55:03] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:55:06 - 20774 - Server - Received: b'{"id":"842","emotion":6}'
+2019-01-15 23:55:06 - 20774 - Server - Update done
+2019-01-15 23:55:06 - 20774 - Server - Response: (416, 'data/e325.jpg')
+127.0.0.1 - - [15/Jan/2019 23:55:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:55:15 - 20774 - Server - Received: b'{"id":"416","emotion":6}'
+2019-01-15 23:55:15 - 20774 - Server - Update done
+2019-01-15 23:55:15 - 20774 - Server - Response: (516, 'data/a106.jpg')
+127.0.0.1 - - [15/Jan/2019 23:55:15] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:55:24 - 20774 - Server - Received: b'{"id":"516","emotion":7}'
+2019-01-15 23:55:24 - 20774 - Server - Update done
+2019-01-15 23:55:24 - 20774 - Server - Response: (581, 'data/a232.jpg')
+127.0.0.1 - - [15/Jan/2019 23:55:24] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:55:30 - 20774 - Server - Received: b'{"id":"581","emotion":8}'
+2019-01-15 23:55:30 - 20774 - Server - Update done
+2019-01-15 23:55:30 - 20774 - Server - Response: (654, 'data/c104.jpg')
+127.0.0.1 - - [15/Jan/2019 23:55:30] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:22 - 20774 - Server - Received: b'{"id":"654","emotion":3}'
+2019-01-15 23:56:22 - 20774 - Server - Update done
+2019-01-15 23:56:22 - 20774 - Server - Response: (345, 'data/f404.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:22] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:23 - 20774 - Server - Received: b'{"id":"345","emotion":5}'
+2019-01-15 23:56:23 - 20774 - Server - Update done
+2019-01-15 23:56:23 - 20774 - Server - Response: (750, 'data/f342.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:23] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:25 - 20774 - Server - Received: b'{"id":"750","emotion":5}'
+2019-01-15 23:56:25 - 20774 - Server - Update done
+2019-01-15 23:56:25 - 20774 - Server - Response: (635, 'data/i103.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:25] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:28 - 20774 - Server - Received: b'{"id":"635","emotion":9}'
+2019-01-15 23:56:28 - 20774 - Server - Update done
+2019-01-15 23:56:28 - 20774 - Server - Response: (768, 'data/e279.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:28] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:32 - 20774 - Server - Received: b'{"id":"768","emotion":9}'
+2019-01-15 23:56:32 - 20774 - Server - Update done
+2019-01-15 23:56:32 - 20774 - Server - Response: (721, 'data/j113.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:32] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:33 - 20774 - Server - Received: b'{"id":"721","emotion":5}'
+2019-01-15 23:56:33 - 20774 - Server - Update done
+2019-01-15 23:56:33 - 20774 - Server - Response: (781, 'data/j40.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:33] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:35 - 20774 - Server - Received: b'{"id":"781","emotion":5}'
+2019-01-15 23:56:35 - 20774 - Server - Update done
+2019-01-15 23:56:35 - 20774 - Server - Response: (652, 'data/h17.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:35] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:44 - 20774 - Server - Received: b'{"id":"652","emotion":6}'
+2019-01-15 23:56:44 - 20774 - Server - Update done
+2019-01-15 23:56:44 - 20774 - Server - Response: (87, 'data/b370.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:44] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:46 - 20774 - Server - Received: b'{"id":"87","emotion":5}'
+2019-01-15 23:56:46 - 20774 - Server - Update done
+2019-01-15 23:56:46 - 20774 - Server - Response: (276, 'data/f156.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:46] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:48 - 20774 - Server - Received: b'{"id":"276","emotion":5}'
+2019-01-15 23:56:48 - 20774 - Server - Update done
+2019-01-15 23:56:48 - 20774 - Server - Response: (190, 'data/d4.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:49 - 20774 - Server - Received: b'{"id":"190","emotion":5}'
+2019-01-15 23:56:49 - 20774 - Server - Update done
+2019-01-15 23:56:49 - 20774 - Server - Response: (738, 'data/d135.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:51 - 20774 - Server - Received: b'{"id":"738","emotion":6}'
+2019-01-15 23:56:51 - 20774 - Server - Update done
+2019-01-15 23:56:51 - 20774 - Server - Response: (179, 'data/g246.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:51] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:53 - 20774 - Server - Received: b'{"id":"179","emotion":7}'
+2019-01-15 23:56:53 - 20774 - Server - Update done
+2019-01-15 23:56:53 - 20774 - Server - Response: (705, 'data/b436.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:53] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:56 - 20774 - Server - Received: b'{"id":"705","emotion":3}'
+2019-01-15 23:56:56 - 20774 - Server - Update done
+2019-01-15 23:56:56 - 20774 - Server - Response: (106, 'data/c242.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:56] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:56:58 - 20774 - Server - Received: b'{"id":"106","emotion":6}'
+2019-01-15 23:56:58 - 20774 - Server - Update done
+2019-01-15 23:56:58 - 20774 - Server - Response: (239, 'data/g16.jpg')
+127.0.0.1 - - [15/Jan/2019 23:56:58] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:01 - 20774 - Server - Received: b'{"id":"239","emotion":7}'
+2019-01-15 23:57:01 - 20774 - Server - Update done
+2019-01-15 23:57:01 - 20774 - Server - Response: (655, 'data/i230.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:01] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:02 - 20774 - Server - Received: b'{"id":"655","emotion":9}'
+2019-01-15 23:57:02 - 20774 - Server - Update done
+2019-01-15 23:57:02 - 20774 - Server - Response: (502, 'data/x142.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:08 - 20774 - Server - Received: b'{"id":"502","emotion":8}'
+2019-01-15 23:57:08 - 20774 - Server - Update done
+2019-01-15 23:57:08 - 20774 - Server - Response: (210, 'data/a281.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:13 - 20774 - Server - Received: b'{"id":"210","emotion":2}'
+2019-01-15 23:57:13 - 20774 - Server - Update done
+2019-01-15 23:57:13 - 20774 - Server - Response: (486, 'data/i288.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:13] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:17 - 20774 - Server - Received: b'{"id":"486","emotion":9}'
+2019-01-15 23:57:17 - 20774 - Server - Update done
+2019-01-15 23:57:17 - 20774 - Server - Response: (444, 'data/b259.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:17] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:26 - 20774 - Server - Received: b'{"id":"444","emotion":3}'
+2019-01-15 23:57:26 - 20774 - Server - Update done
+2019-01-15 23:57:26 - 20774 - Server - Response: (797, 'data/f217.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:26] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:27 - 20774 - Server - Received: b'{"id":"797","emotion":5}'
+2019-01-15 23:57:27 - 20774 - Server - Update done
+2019-01-15 23:57:27 - 20774 - Server - Response: (70, 'data/g231.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:27] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:29 - 20774 - Server - Received: b'{"id":"70","emotion":9}'
+2019-01-15 23:57:29 - 20774 - Server - Update done
+2019-01-15 23:57:29 - 20774 - Server - Response: (72, 'data/a51.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:29] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:31 - 20774 - Server - Received: b'{"id":"72","emotion":9}'
+2019-01-15 23:57:31 - 20774 - Server - Update done
+2019-01-15 23:57:31 - 20774 - Server - Response: (84, 'data/h33.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:31] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:34 - 20774 - Server - Received: b'{"id":"84","emotion":5}'
+2019-01-15 23:57:34 - 20774 - Server - Update done
+2019-01-15 23:57:34 - 20774 - Server - Response: (571, 'data/f43.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:34] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:35 - 20774 - Server - Received: b'{"id":"571","emotion":5}'
+2019-01-15 23:57:35 - 20774 - Server - Update done
+2019-01-15 23:57:35 - 20774 - Server - Response: (672, 'data/j60.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:35] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:39 - 20774 - Server - Received: b'{"id":"672","emotion":5}'
+2019-01-15 23:57:39 - 20774 - Server - Update done
+2019-01-15 23:57:39 - 20774 - Server - Response: (487, 'data/h39.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:39] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:41 - 20774 - Server - Received: b'{"id":"487","emotion":5}'
+2019-01-15 23:57:41 - 20774 - Server - Update done
+2019-01-15 23:57:41 - 20774 - Server - Response: (10, 'data/f362.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:41] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:42 - 20774 - Server - Received: b'{"id":"10","emotion":5}'
+2019-01-15 23:57:42 - 20774 - Server - Update done
+2019-01-15 23:57:42 - 20774 - Server - Response: (780, 'data/h10.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:42] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:49 - 20774 - Server - Received: b'{"id":"780","emotion":9}'
+2019-01-15 23:57:49 - 20774 - Server - Update done
+2019-01-15 23:57:49 - 20774 - Server - Received: b'{"id":"780","emotion":9}'
+2019-01-15 23:57:49 - 20774 - Server - Response: (562, 'data/g154.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:49 - 20774 - Server - Update done
+2019-01-15 23:57:49 - 20774 - Server - Response: (300, 'data/j92.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:49] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:50 - 20774 - Server - Received: b'{"id":"300","emotion":9}'
+2019-01-15 23:57:50 - 20774 - Server - Update done
+2019-01-15 23:57:50 - 20774 - Server - Response: (385, 'data/h61.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:50] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:52 - 20774 - Server - Received: b'{"id":"385","emotion":5}'
+2019-01-15 23:57:52 - 20774 - Server - Update done
+2019-01-15 23:57:52 - 20774 - Server - Response: (399, 'data/g55.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:52] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:55 - 20774 - Server - Received: b'{"id":"399","emotion":9}'
+2019-01-15 23:57:55 - 20774 - Server - Update done
+2019-01-15 23:57:55 - 20774 - Server - Response: (237, 'data/a143.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:55] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:57:59 - 20774 - Server - Received: b'{"id":"237","emotion":7}'
+2019-01-15 23:57:59 - 20774 - Server - Update done
+2019-01-15 23:57:59 - 20774 - Server - Response: (686, 'data/j131.jpg')
+127.0.0.1 - - [15/Jan/2019 23:57:59] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:02 - 20774 - Server - Received: b'{"id":"686","emotion":5}'
+2019-01-15 23:58:02 - 20774 - Server - Update done
+2019-01-15 23:58:02 - 20774 - Server - Response: (104, 'data/b343.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:02] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:04 - 20774 - Server - Received: b'{"id":"104","emotion":9}'
+2019-01-15 23:58:04 - 20774 - Server - Update done
+2019-01-15 23:58:04 - 20774 - Server - Response: (135, 'data/e402.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:04] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:05 - 20774 - Server - Received: b'{"id":"135","emotion":9}'
+2019-01-15 23:58:05 - 20774 - Server - Update done
+2019-01-15 23:58:05 - 20774 - Server - Response: (413, 'data/d240.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:05] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:06 - 20774 - Server - Received: b'{"id":"413","emotion":9}'
+2019-01-15 23:58:06 - 20774 - Server - Update done
+2019-01-15 23:58:06 - 20774 - Server - Response: (641, 'data/c30.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:06] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:08 - 20774 - Server - Received: b'{"id":"641","emotion":5}'
+2019-01-15 23:58:08 - 20774 - Server - Update done
+2019-01-15 23:58:08 - 20774 - Server - Response: (429, 'data/f393.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:08] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:09 - 20774 - Server - Received: b'{"id":"429","emotion":5}'
+2019-01-15 23:58:09 - 20774 - Server - Update done
+2019-01-15 23:58:09 - 20774 - Server - Response: (871, 'data/c223.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:09] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:10 - 20774 - Server - Received: b'{"id":"871","emotion":5}'
+2019-01-15 23:58:10 - 20774 - Server - Update done
+2019-01-15 23:58:10 - 20774 - Server - Response: (745, 'data/x74.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:10] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:58:12 - 20774 - Server - Received: b'{"id":"745","emotion":5}'
+2019-01-15 23:58:12 - 20774 - Server - Update done
+2019-01-15 23:58:12 - 20774 - Server - Response: (121, 'data/d15.jpg')
+127.0.0.1 - - [15/Jan/2019 23:58:12] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:59:44 - 20774 - Server - Response: (764, 'data/g5.jpg')
+127.0.0.1 - - [15/Jan/2019 23:59:44] "GET /face HTTP/1.0" 200 -
+2019-01-15 23:59:48 - 20774 - Server - Received: b'{"id":"764","emotion":7}'
+2019-01-15 23:59:48 - 20774 - Server - Update done
+2019-01-15 23:59:48 - 20774 - Server - Response: (685, 'data/g294.jpg')
+127.0.0.1 - - [15/Jan/2019 23:59:48] "PUT /face HTTP/1.0" 200 -
+2019-01-15 23:59:52 - 20774 - Server - Received: b'{"id":"685","emotion":2}'
+2019-01-15 23:59:52 - 20774 - Server - Update done
+2019-01-15 23:59:52 - 20774 - Server - Response: (555, 'data/i338.jpg')
+127.0.0.1 - - [15/Jan/2019 23:59:52] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:17 - 20774 - Server - Response: (757, 'data/f412.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:17] "GET /face HTTP/1.0" 200 -
+2019-01-16 00:03:22 - 20774 - Server - Received: b'{"id":"757","emotion":8}'
+2019-01-16 00:03:22 - 20774 - Server - Update done
+2019-01-16 00:03:22 - 20774 - Server - Response: (591, 'data/x216.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:22] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:30 - 20774 - Server - Received: b'{"id":"591","emotion":5}'
+2019-01-16 00:03:30 - 20774 - Server - Update done
+2019-01-16 00:03:30 - 20774 - Server - Response: (611, 'data/a258.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:30] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:36 - 20774 - Server - Received: b'{"id":"611","emotion":2}'
+2019-01-16 00:03:36 - 20774 - Server - Update done
+2019-01-16 00:03:36 - 20774 - Server - Response: (117, 'data/j104.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:36] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:39 - 20774 - Server - Received: b'{"id":"117","emotion":5}'
+2019-01-16 00:03:39 - 20774 - Server - Update done
+2019-01-16 00:03:39 - 20774 - Server - Response: (547, 'data/b117.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:39] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:45 - 20774 - Server - Received: b'{"id":"547","emotion":9}'
+2019-01-16 00:03:45 - 20774 - Server - Update done
+2019-01-16 00:03:45 - 20774 - Server - Response: (801, 'data/b395.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:45] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:47 - 20774 - Server - Received: b'{"id":"801","emotion":9}'
+2019-01-16 00:03:47 - 20774 - Server - Update done
+2019-01-16 00:03:47 - 20774 - Server - Response: (754, 'data/f44.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:47] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:51 - 20774 - Server - Received: b'{"id":"754","emotion":8}'
+2019-01-16 00:03:51 - 20774 - Server - Update done
+2019-01-16 00:03:51 - 20774 - Server - Response: (88, 'data/g226.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:51] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:53 - 20774 - Server - Received: b'{"id":"88","emotion":8}'
+2019-01-16 00:03:53 - 20774 - Server - Update done
+2019-01-16 00:03:53 - 20774 - Server - Response: (188, 'data/c15.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:53] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:57 - 20774 - Server - Received: b'{"id":"188","emotion":6}'
+2019-01-16 00:03:57 - 20774 - Server - Update done
+2019-01-16 00:03:57 - 20774 - Server - Response: (844, 'data/e367.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:57] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:03:59 - 20774 - Server - Received: b'{"id":"844","emotion":6}'
+2019-01-16 00:03:59 - 20774 - Server - Update done
+2019-01-16 00:03:59 - 20774 - Server - Response: (42, 'data/g114.jpg')
+127.0.0.1 - - [16/Jan/2019 00:03:59] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:01 - 20774 - Server - Received: b'{"id":"42","emotion":6}'
+2019-01-16 00:04:01 - 20774 - Server - Update done
+2019-01-16 00:04:01 - 20774 - Server - Response: (463, 'data/h21.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:01] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:04 - 20774 - Server - Received: b'{"id":"463","emotion":6}'
+2019-01-16 00:04:04 - 20774 - Server - Update done
+2019-01-16 00:04:04 - 20774 - Server - Response: (855, 'data/x80.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:04] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:06 - 20774 - Server - Received: b'{"id":"855","emotion":9}'
+2019-01-16 00:04:06 - 20774 - Server - Update done
+2019-01-16 00:04:06 - 20774 - Server - Response: (260, 'data/a152.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:06] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:07 - 20774 - Server - Received: b'{"id":"260","emotion":8}'
+2019-01-16 00:04:07 - 20774 - Server - Update done
+2019-01-16 00:04:07 - 20774 - Server - Response: (555, 'data/i338.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:07] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:09 - 20774 - Server - Received: b'{"id":"555","emotion":6}'
+2019-01-16 00:04:09 - 20774 - Server - Update done
+2019-01-16 00:04:09 - 20774 - Server - Response: (796, 'data/a358.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:09] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:11 - 20774 - Server - Received: b'{"id":"796","emotion":8}'
+2019-01-16 00:04:11 - 20774 - Server - Update done
+2019-01-16 00:04:11 - 20774 - Server - Response: (877, 'data/j42.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:11] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:13 - 20774 - Server - Received: b'{"id":"877","emotion":7}'
+2019-01-16 00:04:13 - 20774 - Server - Update done
+2019-01-16 00:04:13 - 20774 - Server - Response: (281, 'data/j83.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:13] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:15 - 20774 - Server - Received: b'{"id":"281","emotion":8}'
+2019-01-16 00:04:15 - 20774 - Server - Update done
+2019-01-16 00:04:15 - 20774 - Server - Response: (141, 'data/j94.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:15] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:17 - 20774 - Server - Received: b'{"id":"141","emotion":5}'
+2019-01-16 00:04:17 - 20774 - Server - Update done
+2019-01-16 00:04:17 - 20774 - Server - Response: (2, 'data/d5.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:17] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:19 - 20774 - Server - Received: b'{"id":"2","emotion":4}'
+2019-01-16 00:04:19 - 20774 - Server - Update done
+2019-01-16 00:04:19 - 20774 - Server - Response: (499, 'data/x66.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:19] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:22 - 20774 - Server - Received: b'{"id":"499","emotion":9}'
+2019-01-16 00:04:22 - 20774 - Server - Update done
+2019-01-16 00:04:22 - 20774 - Server - Response: (159, 'data/e101.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:22] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:24 - 20774 - Server - Received: b'{"id":"159","emotion":5}'
+2019-01-16 00:04:24 - 20774 - Server - Update done
+2019-01-16 00:04:24 - 20774 - Server - Response: (400, 'data/h70.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:24] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:25 - 20774 - Server - Received: b'{"id":"400","emotion":5}'
+2019-01-16 00:04:25 - 20774 - Server - Update done
+2019-01-16 00:04:25 - 20774 - Server - Response: (277, 'data/c177.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:25] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:27 - 20774 - Server - Received: b'{"id":"277","emotion":9}'
+2019-01-16 00:04:27 - 20774 - Server - Update done
+2019-01-16 00:04:27 - 20774 - Server - Response: (94, 'data/f1.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:27] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:32 - 20774 - Server - Received: b'{"id":"94","emotion":8}'
+2019-01-16 00:04:32 - 20774 - Server - Update done
+2019-01-16 00:04:32 - 20774 - Server - Response: (638, 'data/h81.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:32] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:33 - 20774 - Server - Received: b'{"id":"638","emotion":5}'
+2019-01-16 00:04:33 - 20774 - Server - Update done
+2019-01-16 00:04:33 - 20774 - Server - Response: (826, 'data/e57.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:33] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:37 - 20774 - Server - Received: b'{"id":"826","emotion":3}'
+2019-01-16 00:04:37 - 20774 - Server - Update done
+2019-01-16 00:04:37 - 20774 - Server - Response: (91, 'data/j1.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:37] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:43 - 20774 - Server - Received: b'{"id":"91","emotion":5}'
+2019-01-16 00:04:43 - 20774 - Server - Update done
+2019-01-16 00:04:43 - 20774 - Server - Response: (189, 'data/g289.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:43] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:44 - 20774 - Server - Received: b'{"id":"189","emotion":1}'
+2019-01-16 00:04:44 - 20774 - Server - Update done
+2019-01-16 00:04:44 - 20774 - Server - Response: (313, 'data/x141.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:44] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:47 - 20774 - Server - Received: b'{"id":"313","emotion":7}'
+2019-01-16 00:04:47 - 20774 - Server - Update done
+2019-01-16 00:04:47 - 20774 - Server - Response: (701, 'data/d49.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:47] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:48 - 20774 - Server - Received: b'{"id":"701","emotion":7}'
+2019-01-16 00:04:48 - 20774 - Server - Update done
+2019-01-16 00:04:48 - 20774 - Server - Response: (254, 'data/x318.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:48] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:50 - 20774 - Server - Received: b'{"id":"254","emotion":5}'
+2019-01-16 00:04:50 - 20774 - Server - Update done
+2019-01-16 00:04:50 - 20774 - Server - Response: (732, 'data/f366.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:50] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:51 - 20774 - Server - Received: b'{"id":"732","emotion":5}'
+2019-01-16 00:04:51 - 20774 - Server - Update done
+2019-01-16 00:04:51 - 20774 - Server - Response: (191, 'data/e302.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:51] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:53 - 20774 - Server - Received: b'{"id":"191","emotion":8}'
+2019-01-16 00:04:53 - 20774 - Server - Update done
+2019-01-16 00:04:53 - 20774 - Server - Response: (146, 'data/i240.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:53] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:54 - 20774 - Server - Received: b'{"id":"146","emotion":8}'
+2019-01-16 00:04:54 - 20774 - Server - Update done
+2019-01-16 00:04:54 - 20774 - Server - Response: (521, 'data/j16.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:54] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:55 - 20774 - Server - Received: b'{"id":"521","emotion":8}'
+2019-01-16 00:04:55 - 20774 - Server - Update done
+2019-01-16 00:04:55 - 20774 - Server - Response: (259, 'data/x331.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:55] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:04:57 - 20774 - Server - Received: b'{"id":"259","emotion":6}'
+2019-01-16 00:04:57 - 20774 - Server - Update done
+2019-01-16 00:04:57 - 20774 - Server - Response: (620, 'data/j81.jpg')
+127.0.0.1 - - [16/Jan/2019 00:04:57] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:05:01 - 20774 - Server - Received: b'{"id":"620","emotion":9}'
+2019-01-16 00:05:01 - 20774 - Server - Update done
+2019-01-16 00:05:01 - 20774 - Server - Response: (139, 'data/h74.jpg')
+127.0.0.1 - - [16/Jan/2019 00:05:01] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:05:02 - 20774 - Server - Received: b'{"id":"139","emotion":8}'
+2019-01-16 00:05:02 - 20774 - Server - Update done
+2019-01-16 00:05:02 - 20774 - Server - Response: (17, 'data/i398.jpg')
+127.0.0.1 - - [16/Jan/2019 00:05:02] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:05:04 - 20774 - Server - Received: b'{"id":"17","emotion":9}'
+2019-01-16 00:05:04 - 20774 - Server - Update done
+2019-01-16 00:05:04 - 20774 - Server - Response: (541, 'data/c8.jpg')
+127.0.0.1 - - [16/Jan/2019 00:05:04] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:28 - 20774 - Server - Response: (307, 'data/h67.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:28] "GET /face HTTP/1.0" 200 -
+2019-01-16 00:10:35 - 20774 - Server - Received: b'{"id":"307","emotion":4}'
+2019-01-16 00:10:35 - 20774 - Server - Update done
+2019-01-16 00:10:35 - 20774 - Server - Response: (209, 'data/j5.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:35] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:38 - 20774 - Server - Received: b'{"id":"209","emotion":1}'
+2019-01-16 00:10:38 - 20774 - Server - Update done
+2019-01-16 00:10:38 - 20774 - Server - Response: (127, 'data/a208.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:38] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:40 - 20774 - Server - Received: b'{"id":"127","emotion":8}'
+2019-01-16 00:10:40 - 20774 - Server - Update done
+2019-01-16 00:10:40 - 20774 - Server - Response: (632, 'data/i316.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:40] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:45 - 20774 - Server - Received: b'{"id":"632","emotion":6}'
+2019-01-16 00:10:45 - 20774 - Server - Update done
+2019-01-16 00:10:45 - 20774 - Server - Response: (597, 'data/i246.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:45] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:50 - 20774 - Server - Received: b'{"id":"597","emotion":2}'
+2019-01-16 00:10:50 - 20774 - Server - Update done
+2019-01-16 00:10:50 - 20774 - Server - Response: (271, 'data/b243.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:50] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:53 - 20774 - Server - Received: b'{"id":"271","emotion":3}'
+2019-01-16 00:10:53 - 20774 - Server - Update done
+2019-01-16 00:10:53 - 20774 - Server - Response: (544, 'data/x21.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:53] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:56 - 20774 - Server - Received: b'{"id":"544","emotion":9}'
+2019-01-16 00:10:56 - 20774 - Server - Update done
+2019-01-16 00:10:56 - 20774 - Server - Response: (698, 'data/a286.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:56] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:10:57 - 20774 - Server - Received: b'{"id":"698","emotion":8}'
+2019-01-16 00:10:57 - 20774 - Server - Update done
+2019-01-16 00:10:57 - 20774 - Server - Response: (723, 'data/g284.jpg')
+127.0.0.1 - - [16/Jan/2019 00:10:57] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:02 - 20774 - Server - Received: b'{"id":"723","emotion":6}'
+2019-01-16 00:11:02 - 20774 - Server - Update done
+2019-01-16 00:11:02 - 20774 - Server - Response: (700, 'data/d6.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:02] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:06 - 20774 - Server - Received: b'{"id":"700","emotion":9}'
+2019-01-16 00:11:06 - 20774 - Server - Update done
+2019-01-16 00:11:06 - 20774 - Server - Response: (628, 'data/x401.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:06] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:10 - 20774 - Server - Received: b'{"id":"628","emotion":2}'
+2019-01-16 00:11:10 - 20774 - Server - Update done
+2019-01-16 00:11:10 - 20774 - Server - Response: (305, 'data/c87.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:10] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:12 - 20774 - Server - Received: b'{"id":"305","emotion":8}'
+2019-01-16 00:11:12 - 20774 - Server - Update done
+2019-01-16 00:11:12 - 20774 - Server - Response: (576, 'data/g24.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:12] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:14 - 20774 - Server - Received: b'{"id":"576","emotion":1}'
+2019-01-16 00:11:14 - 20774 - Server - Update done
+2019-01-16 00:11:14 - 20774 - Server - Response: (527, 'data/x175.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:14] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:17 - 20774 - Server - Received: b'{"id":"527","emotion":5}'
+2019-01-16 00:11:17 - 20774 - Server - Update done
+2019-01-16 00:11:17 - 20774 - Server - Response: (736, 'data/e388.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:17] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:19 - 20774 - Server - Received: b'{"id":"736","emotion":4}'
+2019-01-16 00:11:19 - 20774 - Server - Update done
+2019-01-16 00:11:19 - 20774 - Server - Response: (140, 'data/b176.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:19] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:25 - 20774 - Server - Received: b'{"id":"140","emotion":8}'
+2019-01-16 00:11:25 - 20774 - Server - Update done
+2019-01-16 00:11:25 - 20774 - Server - Response: (706, 'data/c29.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:25] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:27 - 20774 - Server - Received: b'{"id":"706","emotion":6}'
+2019-01-16 00:11:27 - 20774 - Server - Update done
+2019-01-16 00:11:27 - 20774 - Server - Response: (434, 'data/j127.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:27] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:30 - 20774 - Server - Received: b'{"id":"434","emotion":5}'
+2019-01-16 00:11:30 - 20774 - Server - Update done
+2019-01-16 00:11:30 - 20774 - Server - Response: (251, 'data/h40.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:30] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:31 - 20774 - Server - Received: b'{"id":"251","emotion":5}'
+2019-01-16 00:11:31 - 20774 - Server - Update done
+2019-01-16 00:11:31 - 20774 - Server - Response: (65, 'data/g283.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:31] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:34 - 20774 - Server - Received: b'{"id":"65","emotion":3}'
+2019-01-16 00:11:34 - 20774 - Server - Update done
+2019-01-16 00:11:34 - 20774 - Server - Response: (75, 'data/j25.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:34] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:36 - 20774 - Server - Received: b'{"id":"75","emotion":1}'
+2019-01-16 00:11:36 - 20774 - Server - Update done
+2019-01-16 00:11:36 - 20774 - Server - Response: (845, 'data/x160.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:36] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:43 - 20774 - Server - Received: b'{"id":"845","emotion":7}'
+2019-01-16 00:11:43 - 20774 - Server - Update done
+2019-01-16 00:11:43 - 20774 - Server - Response: (212, 'data/f19.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:43] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:43 - 20774 - Server - Received: b'{"id":"212","emotion":7}'
+2019-01-16 00:11:43 - 20774 - Server - Update done
+2019-01-16 00:11:43 - 20774 - Server - Response: (689, 'data/a214.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:43] "PUT /face HTTP/1.0" 200 -
+2019-01-16 00:11:45 - 20774 - Server - Received: b'{"id":"689","emotion":6}'
+2019-01-16 00:11:45 - 20774 - Server - Update done
+2019-01-16 00:11:45 - 20774 - Server - Response: (100, 'data/g49.jpg')
+127.0.0.1 - - [16/Jan/2019 00:11:45] "PUT /face HTTP/1.0" 200 -
+2019-01-16 09:35:31 - 20774 - Server - Response: (472, 'data/b303.jpg')
+127.0.0.1 - - [16/Jan/2019 09:35:31] "GET /face HTTP/1.0" 200 -
+2019-01-16 09:36:08 - 20774 - Server - Received: b'{"id":"472","emotion":6}'
+2019-01-16 09:36:08 - 20774 - Server - Update done
+2019-01-16 09:36:08 - 20774 - Server - Response: (86, 'data/f128.jpg')
+127.0.0.1 - - [16/Jan/2019 09:36:08] "PUT /face HTTP/1.0" 200 -
+2019-01-16 09:36:13 - 20774 - Server - Received: b'{"id":"86","emotion":5}'
+2019-01-16 09:36:13 - 20774 - Server - Update done
+2019-01-16 09:36:13 - 20774 - Server - Response: (471, 'data/a226.jpg')
+127.0.0.1 - - [16/Jan/2019 09:36:13] "PUT /face HTTP/1.0" 200 -
+2019-01-16 09:36:20 - 20774 - Server - Received: b'{"id":"471","emotion":6}'
+2019-01-16 09:36:20 - 20774 - Server - Update done
+2019-01-16 09:36:20 - 20774 - Server - Response: (679, 'data/h65.jpg')
+127.0.0.1 - - [16/Jan/2019 09:36:20] "PUT /face HTTP/1.0" 200 -
+2019-01-16 09:36:23 - 20774 - Server - Received: b'{"id":"679","emotion":5}'
+2019-01-16 09:36:23 - 20774 - Server - Update done
+2019-01-16 09:36:23 - 20774 - Server - Response: (177, 'data/h34.jpg')
+127.0.0.1 - - [16/Jan/2019 09:36:23] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:57:39 - 20774 - Server - Response: (868, 'data/b417.jpg')
+127.0.0.1 - - [16/Jan/2019 11:57:39] "GET /face HTTP/1.0" 200 -
+2019-01-16 11:57:46 - 20774 - Server - Received: b'{"id":"868","emotion":8}'
+2019-01-16 11:57:46 - 20774 - Server - Update done
+2019-01-16 11:57:46 - 20774 - Server - Response: (642, 'data/i202.jpg')
+127.0.0.1 - - [16/Jan/2019 11:57:46] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:09 - 20774 - Server - Received: b'{"id":"642","emotion":6}'
+2019-01-16 11:58:09 - 20774 - Server - Update done
+2019-01-16 11:58:09 - 20774 - Server - Response: (219, 'data/f375.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:09] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:12 - 20774 - Server - Received: b'{"id":"219","emotion":8}'
+2019-01-16 11:58:12 - 20774 - Server - Update done
+2019-01-16 11:58:12 - 20774 - Server - Response: (510, 'data/x33.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:12] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:14 - 20774 - Server - Received: b'{"id":"510","emotion":5}'
+2019-01-16 11:58:14 - 20774 - Server - Update done
+2019-01-16 11:58:14 - 20774 - Server - Response: (582, 'data/f31.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:14] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:19 - 20774 - Server - Received: b'{"id":"582","emotion":5}'
+2019-01-16 11:58:19 - 20774 - Server - Update done
+2019-01-16 11:58:19 - 20774 - Server - Response: (682, 'data/j84.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:19] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:20 - 20774 - Server - Received: b'{"id":"682","emotion":5}'
+2019-01-16 11:58:20 - 20774 - Server - Update done
+2019-01-16 11:58:20 - 20774 - Server - Response: (214, 'data/g209.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:20] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:22 - 20774 - Server - Received: b'{"id":"214","emotion":5}'
+2019-01-16 11:58:22 - 20774 - Server - Update done
+2019-01-16 11:58:22 - 20774 - Server - Response: (770, 'data/b166.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:22] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:23 - 20774 - Server - Received: b'{"id":"770","emotion":5}'
+2019-01-16 11:58:23 - 20774 - Server - Update done
+2019-01-16 11:58:23 - 20774 - Server - Response: (274, 'data/c197.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:23] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:26 - 20774 - Server - Received: b'{"id":"274","emotion":6}'
+2019-01-16 11:58:26 - 20774 - Server - Update done
+2019-01-16 11:58:26 - 20774 - Server - Response: (183, 'data/h47.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:26] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:27 - 20774 - Server - Received: b'{"id":"183","emotion":5}'
+2019-01-16 11:58:27 - 20774 - Server - Update done
+2019-01-16 11:58:27 - 20774 - Server - Response: (456, 'data/d11.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:27] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:30 - 20774 - Server - Received: b'{"id":"456","emotion":3}'
+2019-01-16 11:58:30 - 20774 - Server - Update done
+2019-01-16 11:58:30 - 20774 - Server - Response: (386, 'data/d58.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:30] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:33 - 20774 - Server - Received: b'{"id":"386","emotion":4}'
+2019-01-16 11:58:33 - 20774 - Server - Update done
+2019-01-16 11:58:33 - 20774 - Server - Response: (23, 'data/i234.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:33] "PUT /face HTTP/1.0" 200 -
+2019-01-16 11:58:37 - 20774 - Server - Received: b'{"id":"23","emotion":6}'
+2019-01-16 11:58:37 - 20774 - Server - Update done
+2019-01-16 11:58:37 - 20774 - Server - Response: (636, 'data/c124.jpg')
+127.0.0.1 - - [16/Jan/2019 11:58:37] "PUT /face HTTP/1.0" 200 -
+2019-01-17 12:16:01 - 20774 - Server - Response: (820, 'data/c224.jpg')
+127.0.0.1 - - [17/Jan/2019 12:16:01] "GET /face HTTP/1.0" 200 -
+2019-01-17 12:16:05 - 20774 - Server - Received: b'{"id":"820","emotion":5}'
+2019-01-17 12:16:05 - 20774 - Server - Update done
+2019-01-17 12:16:05 - 20774 - Server - Response: (735, 'data/c89.jpg')
+127.0.0.1 - - [17/Jan/2019 12:16:05] "PUT /face HTTP/1.0" 200 -
+2019-01-17 12:16:14 - 20774 - Server - Received: b'{"id":"735","emotion":6}'
+2019-01-17 12:16:14 - 20774 - Server - Update done
+2019-01-17 12:16:14 - 20774 - Server - Response: (707, 'data/x363.jpg')
+127.0.0.1 - - [17/Jan/2019 12:16:14] "PUT /face HTTP/1.0" 200 -
+2019-01-17 12:16:47 - 20774 - Server - Received: b'{"id":"707","emotion":5}'
+2019-01-17 12:16:47 - 20774 - Server - Update done
+2019-01-17 12:16:47 - 20774 - Server - Response: (774, 'data/c259.jpg')
+127.0.0.1 - - [17/Jan/2019 12:16:47] "PUT /face HTTP/1.0" 200 -
+2019-01-17 12:16:50 - 20774 - Server - Received: b'{"id":"774","emotion":5}'
+2019-01-17 12:16:50 - 20774 - Server - Update done
+2019-01-17 12:16:50 - 20774 - Server - Response: (566, 'data/e100.jpg')
+127.0.0.1 - - [17/Jan/2019 12:16:50] "PUT /face HTTP/1.0" 200 -
+2019-01-17 12:17:04 - 20774 - Server - Received: b'{"id":"566","emotion":6}'
+2019-01-17 12:17:04 - 20774 - Server - Update done
+2019-01-17 12:17:04 - 20774 - Server - Response: (636, 'data/c124.jpg')
+127.0.0.1 - - [17/Jan/2019 12:17:04] "PUT /face HTTP/1.0" 200 -
+2019-01-17 12:17:48 - 20774 - Server - Response: (317, 'data/j132.jpg')
+127.0.0.1 - - [17/Jan/2019 12:17:48] "GET /face HTTP/1.0" 200 -
+2019-01-17 12:24:22 - 20774 - Server - Received: b'{"id":"317","emotion":5}'
+2019-01-17 12:24:22 - 20774 - Server - Update done
+2019-01-17 12:24:22 - 20774 - Server - Response: (3, 'data/g266.jpg')
+127.0.0.1 - - [17/Jan/2019 12:24:22] "PUT /face HTTP/1.0" 200 -
+2019-01-19 09:58:16 - 20774 - Server - Response: (789, 'data/d100.jpg')
+127.0.0.1 - - [19/Jan/2019 09:58:16] "GET /face HTTP/1.0" 200 -
+2019-01-19 09:58:19 - 20774 - Server - Received: b'{"id":"789","emotion":6}'
+2019-01-19 09:58:19 - 20774 - Server - Update done
+2019-01-19 09:58:19 - 20774 - Server - Response: (795, 'data/j142.jpg')
+127.0.0.1 - - [19/Jan/2019 09:58:19] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:00:20 - 20774 - Server - Response: (411, 'data/j23.jpg')
+127.0.0.1 - - [19/Jan/2019 10:00:20] "GET /face HTTP/1.0" 200 -
+2019-01-19 10:00:22 - 20774 - Server - Received: b'{"id":"411","emotion":5}'
+2019-01-19 10:00:22 - 20774 - Server - Update done
+2019-01-19 10:00:22 - 20774 - Server - Response: (293, 'data/h76.jpg')
+127.0.0.1 - - [19/Jan/2019 10:00:22] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:00:47 - 20774 - Server - Received: b'{"id":"293","emotion":6}'
+2019-01-19 10:00:47 - 20774 - Server - Update done
+2019-01-19 10:00:47 - 20774 - Server - Response: (869, 'data/i331.jpg')
+127.0.0.1 - - [19/Jan/2019 10:00:47] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:27:20 - 20774 - Server - Response: (194, 'data/i127.jpg')
+127.0.0.1 - - [19/Jan/2019 10:27:20] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:27:21] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:27:21 - 20774 - Server - Received: b'{"id":"194","emotion":5}'
+2019-01-19 10:27:21 - 20774 - Server - Update done
+2019-01-19 10:27:21 - 20774 - Server - Response: (255, 'data/i399.jpg')
+127.0.0.1 - - [19/Jan/2019 10:27:21] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:28:01 - 20774 - Server - Response: (446, 'data/d8.jpg')
+127.0.0.1 - - [19/Jan/2019 10:28:01] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:28:03] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:28:03 - 20774 - Server - Received: b'{"id":"446","emotion":5}'
+2019-01-19 10:28:03 - 20774 - Server - Update done
+2019-01-19 10:28:03 - 20774 - Server - Response: (465, 'data/c4.jpg')
+127.0.0.1 - - [19/Jan/2019 10:28:03] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:28:07 - 20774 - Server - Received: b'{"id":"465","emotion":6}'
+2019-01-19 10:28:07 - 20774 - Server - Update done
+2019-01-19 10:28:07 - 20774 - Server - Response: (447, 'data/x325.jpg')
+127.0.0.1 - - [19/Jan/2019 10:28:07] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:28:41] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:28:41 - 20774 - Server - Received: b'{"id":"447","emotion":5}'
+2019-01-19 10:28:41 - 20774 - Server - Update done
+2019-01-19 10:28:41 - 20774 - Server - Response: (880, 'data/j86.jpg')
+127.0.0.1 - - [19/Jan/2019 10:28:41] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:29:40 - 20774 - Server - Response: (503, 'data/b174.jpg')
+127.0.0.1 - - [19/Jan/2019 10:29:40] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:29:44] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:29:44 - 20774 - Server - Received: b'{"id":"503","emotion":5}'
+2019-01-19 10:29:44 - 20774 - Server - Update done
+2019-01-19 10:29:44 - 20774 - Server - Response: (289, 'data/a265.jpg')
+127.0.0.1 - - [19/Jan/2019 10:29:44] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:33:22] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:33:22 - 20774 - Server - Received: b'{"id":"289","emotion":6}'
+2019-01-19 10:33:22 - 20774 - Server - Update done
+2019-01-19 10:33:22 - 20774 - Server - Response: (508, 'data/i371.jpg')
+127.0.0.1 - - [19/Jan/2019 10:33:22] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:36:33 - 20774 - Server - Response: (696, 'data/g170.jpg')
+127.0.0.1 - - [19/Jan/2019 10:36:33] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:36:35] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:36:36 - 20774 - Server - Received: b'{"id":"696","emotion":5}'
+2019-01-19 10:36:36 - 20774 - Server - Update done
+2019-01-19 10:36:36 - 20774 - Server - Response: (395, 'data/d278.jpg')
+127.0.0.1 - - [19/Jan/2019 10:36:36] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:37:50 - 20774 - Server - Response: (460, 'data/h54.jpg')
+127.0.0.1 - - [19/Jan/2019 10:37:50] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:37:52] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:37:52 - 20774 - Server - Received: b'{"id":"460","emotion":5}'
+2019-01-19 10:37:52 - 20774 - Server - Update done
+2019-01-19 10:37:52 - 20774 - Server - Response: (58, 'data/c3.jpg')
+127.0.0.1 - - [19/Jan/2019 10:37:52] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:38:10] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:38:10 - 20774 - Server - Received: b'{"id":"58","emotion":6}'
+2019-01-19 10:38:10 - 20774 - Server - Update done
+2019-01-19 10:38:10 - 20774 - Server - Response: (257, 'data/d211.jpg')
+127.0.0.1 - - [19/Jan/2019 10:38:10] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:45:19 - 20774 - Server - Response: (246, 'data/e35.jpg')
+127.0.0.1 - - [19/Jan/2019 10:45:19] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:45:23] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:45:23 - 20774 - Server - Received: b'{"id":"246","emotion":6}'
+2019-01-19 10:45:23 - 20774 - Server - Update done
+2019-01-19 10:45:23 - 20774 - Server - Response: (805, 'data/i384.jpg')
+127.0.0.1 - - [19/Jan/2019 10:45:23] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:48:22] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:48:22 - 20774 - Server - Received: b'{"id":"805","emotion":6}'
+2019-01-19 10:48:22 - 20774 - Server - Update done
+2019-01-19 10:48:22 - 20774 - Server - Response: (762, 'data/i318.jpg')
+127.0.0.1 - - [19/Jan/2019 10:48:22] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:53:47 - 20774 - Server - Response: (326, 'data/c116.jpg')
+127.0.0.1 - - [19/Jan/2019 10:53:47] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:53:50] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:53:50 - 20774 - Server - Received: b'{"id":"326","emotion":6}'
+2019-01-19 10:53:50 - 20774 - Server - Update done
+2019-01-19 10:53:50 - 20774 - Server - Response: (266, 'data/c228.jpg')
+127.0.0.1 - - [19/Jan/2019 10:53:50] "PUT /face HTTP/1.0" 200 -
+2019-01-19 10:58:53 - 20774 - Server - Response: (68, 'data/e202.jpg')
+127.0.0.1 - - [19/Jan/2019 10:58:53] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 10:58:56] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 10:58:56 - 20774 - Server - Received: b'{"id":"68","emotion":6}'
+2019-01-19 10:58:56 - 20774 - Server - Update done
+2019-01-19 10:58:56 - 20774 - Server - Response: (428, 'data/e70.jpg')
+127.0.0.1 - - [19/Jan/2019 10:58:56] "PUT /face HTTP/1.0" 200 -
+2019-01-19 11:04:26 - 20774 - Server - Response: (711, 'data/h75.jpg')
+127.0.0.1 - - [19/Jan/2019 11:04:26] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 11:04:28] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 11:04:28 - 20774 - Server - Received: b'{"id":"711","emotion":5}'
+2019-01-19 11:04:28 - 20774 - Server - Update done
+2019-01-19 11:04:28 - 20774 - Server - Response: (105, 'data/a356.jpg')
+127.0.0.1 - - [19/Jan/2019 11:04:28] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [19/Jan/2019 11:04:43] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-19 11:04:43 - 20774 - Server - Received: b'{"id":"105","emotion":4}'
+2019-01-19 11:04:43 - 20774 - Server - Update done
+2019-01-19 11:04:43 - 20774 - Server - Response: (290, 'data/f52.jpg')
+127.0.0.1 - - [19/Jan/2019 11:04:43] "PUT /face HTTP/1.0" 200 -
+2019-01-19 19:41:11 - 20774 - Server - Response: (62, 'data/f424.jpg')
+127.0.0.1 - - [19/Jan/2019 19:41:11] "GET /face HTTP/1.0" 200 -
+2019-01-23 14:49:43 - 20774 - Server - Response: (364, 'data/f80.jpg')
+127.0.0.1 - - [23/Jan/2019 14:49:43] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 14:49:46] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 14:49:46 - 20774 - Server - Received: b'{"id":"364","emotion":5}'
+2019-01-23 14:49:46 - 20774 - Server - Update done
+2019-01-23 14:49:46 - 20774 - Server - Response: (439, 'data/j17.jpg')
+127.0.0.1 - - [23/Jan/2019 14:49:46] "PUT /face HTTP/1.0" 200 -
+2019-01-23 14:49:47 - 20774 - Server - Received: b'{"id":"439","emotion":5}'
+2019-01-23 14:49:47 - 20774 - Server - Update done
+2019-01-23 14:49:47 - 20774 - Server - Response: (663, 'data/j90.jpg')
+127.0.0.1 - - [23/Jan/2019 14:49:47] "PUT /face HTTP/1.0" 200 -
+2019-01-23 14:49:49 - 20774 - Server - Received: b'{"id":"663","emotion":5}'
+2019-01-23 14:49:49 - 20774 - Server - Update done
+2019-01-23 14:49:49 - 20774 - Server - Response: (195, 'data/a267.jpg')
+127.0.0.1 - - [23/Jan/2019 14:49:49] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 14:49:52] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 14:49:52 - 20774 - Server - Received: b'{"id":"195","emotion":4}'
+2019-01-23 14:49:52 - 20774 - Server - Update done
+2019-01-23 14:49:52 - 20774 - Server - Response: (3, 'data/g266.jpg')
+127.0.0.1 - - [23/Jan/2019 14:49:52] "PUT /face HTTP/1.0" 200 -
+2019-01-23 14:49:56 - 20774 - Server - Received: b'{"id":"3","emotion":1}'
+2019-01-23 14:49:56 - 20774 - Server - Update done
+2019-01-23 14:49:56 - 20774 - Server - Response: (252, 'data/a366.jpg')
+127.0.0.1 - - [23/Jan/2019 14:49:56] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:19:38 - 20774 - Server - Response: (240, 'data/b291.jpg')
+127.0.0.1 - - [23/Jan/2019 17:19:38] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:19:45] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:19:45 - 20774 - Server - Received: b'{"id":"240","emotion":8}'
+2019-01-23 17:19:45 - 20774 - Server - Update done
+2019-01-23 17:19:45 - 20774 - Server - Response: (615, 'data/j137.jpg')
+127.0.0.1 - - [23/Jan/2019 17:19:45] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:19:47 - 20774 - Server - Received: b'{"id":"615","emotion":5}'
+2019-01-23 17:19:47 - 20774 - Server - Update done
+2019-01-23 17:19:47 - 20774 - Server - Response: (33, 'data/d19.jpg')
+127.0.0.1 - - [23/Jan/2019 17:19:47] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:19:48 - 20774 - Server - Received: b'{"id":"33","emotion":5}'
+2019-01-23 17:19:48 - 20774 - Server - Update done
+2019-01-23 17:19:48 - 20774 - Server - Response: (357, 'data/f95.jpg')
+127.0.0.1 - - [23/Jan/2019 17:19:48] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:19:49 - 20774 - Server - Received: b'{"id":"357","emotion":5}'
+2019-01-23 17:19:49 - 20774 - Server - Update done
+2019-01-23 17:19:49 - 20774 - Server - Response: (21, 'data/j76.jpg')
+127.0.0.1 - - [23/Jan/2019 17:19:49] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:19:51] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:19:51 - 20774 - Server - Received: b'{"id":"21","emotion":5}'
+2019-01-23 17:19:51 - 20774 - Server - Update done
+2019-01-23 17:19:51 - 20774 - Server - Response: (203, 'data/i181.jpg')
+127.0.0.1 - - [23/Jan/2019 17:19:51] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:28:20 - 20774 - Server - Response: (691, 'data/a123.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:20] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:28:22] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:28:22 - 20774 - Server - Received: b'{"id":"691","emotion":6}'
+2019-01-23 17:28:22 - 20774 - Server - Update done
+2019-01-23 17:28:22 - 20774 - Server - Response: (851, 'data/d133.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:22] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:28:26 - 20774 - Server - Received: b'{"id":"851","emotion":6}'
+2019-01-23 17:28:26 - 20774 - Server - Update done
+2019-01-23 17:28:26 - 20774 - Server - Response: (403, 'data/g277.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:26] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:28:27 - 20774 - Server - Received: b'{"id":"403","emotion":6}'
+2019-01-23 17:28:27 - 20774 - Server - Update done
+2019-01-23 17:28:27 - 20774 - Server - Response: (565, 'data/x266.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:27] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:28:31] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:28:31 - 20774 - Server - Received: b'{"id":"565","emotion":6}'
+2019-01-23 17:28:31 - 20774 - Server - Update done
+2019-01-23 17:28:31 - 20774 - Server - Response: (270, 'data/b100.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:31] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:28:40] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:28:40 - 20774 - Server - Received: b'{"id":"270","emotion":6}'
+2019-01-23 17:28:40 - 20774 - Server - Update done
+2019-01-23 17:28:40 - 20774 - Server - Response: (383, 'data/d145.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:40] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:28:47] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:28:47 - 20774 - Server - Received: b'{"id":"383","emotion":9}'
+2019-01-23 17:28:47 - 20774 - Server - Update done
+2019-01-23 17:28:47 - 20774 - Server - Response: (495, 'data/x135.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:47] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:28:48 - 20774 - Server - Received: b'{"id":"495","emotion":5}'
+2019-01-23 17:28:48 - 20774 - Server - Update done
+2019-01-23 17:28:48 - 20774 - Server - Response: (20, 'data/e396.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:48] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:28:53] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:28:53 - 20774 - Server - Received: b'{"id":"20","emotion":5}'
+2019-01-23 17:28:53 - 20774 - Server - Update done
+2019-01-23 17:28:53 - 20774 - Server - Response: (605, 'data/d226.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:53] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:28:55 - 20774 - Server - Received: b'{"id":"605","emotion":6}'
+2019-01-23 17:28:55 - 20774 - Server - Update done
+2019-01-23 17:28:55 - 20774 - Server - Response: (111, 'data/g282.jpg')
+127.0.0.1 - - [23/Jan/2019 17:28:55] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:29:08] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:29:08 - 20774 - Server - Received: b'{"id":"111","emotion":6}'
+2019-01-23 17:29:08 - 20774 - Server - Update done
+2019-01-23 17:29:08 - 20774 - Server - Response: (53, 'data/b366.jpg')
+127.0.0.1 - - [23/Jan/2019 17:29:08] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:29:17] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:29:17 - 20774 - Server - Received: b'{"id":"53","emotion":5}'
+2019-01-23 17:29:17 - 20774 - Server - Update done
+2019-01-23 17:29:17 - 20774 - Server - Response: (787, 'data/c40.jpg')
+127.0.0.1 - - [23/Jan/2019 17:29:17] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:29:19 - 20774 - Server - Received: b'{"id":"787","emotion":6}'
+2019-01-23 17:29:19 - 20774 - Server - Update done
+2019-01-23 17:29:19 - 20774 - Server - Response: (520, 'data/d64.jpg')
+127.0.0.1 - - [23/Jan/2019 17:29:19] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:31:38 - 20774 - Server - Response: (351, 'data/a297.jpg')
+127.0.0.1 - - [23/Jan/2019 17:31:38] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:31:42] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:31:42 - 20774 - Server - Received: b'{"id":"351","emotion":6}'
+2019-01-23 17:31:42 - 20774 - Server - Update done
+2019-01-23 17:31:42 - 20774 - Server - Response: (783, 'data/d239.jpg')
+127.0.0.1 - - [23/Jan/2019 17:31:42] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:31:44 - 20774 - Server - Received: b'{"id":"783","emotion":6}'
+2019-01-23 17:31:44 - 20774 - Server - Update done
+2019-01-23 17:31:44 - 20774 - Server - Response: (250, 'data/i29.jpg')
+127.0.0.1 - - [23/Jan/2019 17:31:44] "PUT /face HTTP/1.0" 200 -
+2019-01-23 17:31:47 - 20774 - Server - Received: b'{"id":"250","emotion":6}'
+2019-01-23 17:31:47 - 20774 - Server - Update done
+2019-01-23 17:31:47 - 20774 - Server - Response: (49, 'data/x353.jpg')
+127.0.0.1 - - [23/Jan/2019 17:31:47] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 17:31:48] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 17:31:48 - 20774 - Server - Received: b'{"id":"49","emotion":5}'
+2019-01-23 17:31:48 - 20774 - Server - Update done
+2019-01-23 17:31:48 - 20774 - Server - Response: (54, 'data/f373.jpg')
+127.0.0.1 - - [23/Jan/2019 17:31:48] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:39:50 - 20774 - Server - Response: (618, 'data/d318.jpg')
+127.0.0.1 - - [23/Jan/2019 22:39:50] "GET /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:39:53] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:39:53 - 20774 - Server - Received: b'{"id":"618","emotion":8}'
+2019-01-23 22:39:53 - 20774 - Server - Update done
+2019-01-23 22:39:53 - 20774 - Server - Response: (500, 'data/g20.jpg')
+127.0.0.1 - - [23/Jan/2019 22:39:53] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:39:57 - 20774 - Server - Received: b'{"id":"500","emotion":6}'
+2019-01-23 22:39:57 - 20774 - Server - Update done
+2019-01-23 22:39:57 - 20774 - Server - Response: (1, 'data/g148.jpg')
+127.0.0.1 - - [23/Jan/2019 22:39:57] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:39:59] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:39:59 - 20774 - Server - Received: b'{"id":"1","emotion":5}'
+2019-01-23 22:39:59 - 20774 - Server - Update done
+2019-01-23 22:39:59 - 20774 - Server - Response: (734, 'data/e347.jpg')
+127.0.0.1 - - [23/Jan/2019 22:39:59] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:00 - 20774 - Server - Received: b'{"id":"734","emotion":6}'
+2019-01-23 22:40:00 - 20774 - Server - Update done
+2019-01-23 22:40:00 - 20774 - Server - Response: (575, 'data/j121.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:00] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:03 - 20774 - Server - Received: b'{"id":"575","emotion":5}'
+2019-01-23 22:40:03 - 20774 - Server - Update done
+2019-01-23 22:40:03 - 20774 - Server - Response: (361, 'data/x178.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:03] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:40:04] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:40:04 - 20774 - Server - Received: b'{"id":"361","emotion":5}'
+2019-01-23 22:40:04 - 20774 - Server - Update done
+2019-01-23 22:40:04 - 20774 - Server - Response: (310, 'data/a96.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:04] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:09 - 20774 - Server - Received: b'{"id":"310","emotion":2}'
+2019-01-23 22:40:09 - 20774 - Server - Update done
+2019-01-23 22:40:09 - 20774 - Server - Response: (587, 'data/h58.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:09] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:40:11] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:40:11 - 20774 - Server - Received: b'{"id":"587","emotion":5}'
+2019-01-23 22:40:11 - 20774 - Server - Update done
+2019-01-23 22:40:11 - 20774 - Server - Response: (671, 'data/d80.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:11] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:40:18] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:40:18 - 20774 - Server - Received: b'{"id":"671","emotion":6}'
+2019-01-23 22:40:18 - 20774 - Server - Update done
+2019-01-23 22:40:18 - 20774 - Server - Response: (137, 'data/c105.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:18] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:19 - 20774 - Server - Received: b'{"id":"137","emotion":6}'
+2019-01-23 22:40:19 - 20774 - Server - Update done
+2019-01-23 22:40:19 - 20774 - Server - Response: (201, 'data/i183.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:19] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:40:34] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:40:34 - 20774 - Server - Received: b'{"id":"201","emotion":6}'
+2019-01-23 22:40:34 - 20774 - Server - Update done
+2019-01-23 22:40:34 - 20774 - Server - Response: (64, 'data/e412.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:34] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:35 - 20774 - Server - Received: b'{"id":"64","emotion":6}'
+2019-01-23 22:40:35 - 20774 - Server - Update done
+2019-01-23 22:40:35 - 20774 - Server - Response: (59, 'data/j125.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:35] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:38 - 20774 - Server - Received: b'{"id":"59","emotion":5}'
+2019-01-23 22:40:38 - 20774 - Server - Update done
+2019-01-23 22:40:38 - 20774 - Server - Response: (539, 'data/a236.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:38] "PUT /face HTTP/1.0" 200 -
+127.0.0.1 - - [23/Jan/2019 22:40:40] "OPTIONS /face HTTP/1.0" 200 -
+2019-01-23 22:40:40 - 20774 - Server - Received: b'{"id":"539","emotion":6}'
+2019-01-23 22:40:40 - 20774 - Server - Update done
+2019-01-23 22:40:40 - 20774 - Server - Response: (204, 'data/d212.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:40] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:41 - 20774 - Server - Received: b'{"id":"204","emotion":6}'
+2019-01-23 22:40:41 - 20774 - Server - Update done
+2019-01-23 22:40:41 - 20774 - Server - Response: (807, 'data/f379.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:41] "PUT /face HTTP/1.0" 200 -
+2019-01-23 22:40:43 - 20774 - Server - Received: b'{"id":"807","emotion":5}'
+2019-01-23 22:40:43 - 20774 - Server - Update done
+2019-01-23 22:40:43 - 20774 - Server - Response: (359, 'data/a78.jpg')
+127.0.0.1 - - [23/Jan/2019 22:40:43] "PUT /face HTTP/1.0" 200 -
