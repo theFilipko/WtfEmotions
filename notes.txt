@@ -200,3 +200,10 @@ Imposible
 Cállate y toma mi dinero!!!
 ¡Cásate conmigo!
 Último
+
+
+dataset of faces
+old people = a,b,c,d,e,f,g,h,i,j,k,l,m,n,o = 15 persons = 4 male 4 female = 1200pcs
+caerer = x = 1 person = female = 80pcs
+young people expressing all emotions = from the KDEF db = 10 persons = 5 male 5 female = 70pcs
+random faces random emotions = AffectNet db = 27pcs
