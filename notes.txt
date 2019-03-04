@@ -206,6 +206,32 @@ Cállate y toma mi dinero!!!
 
 dataset of faces
 old people = a,b,c,d,e,f,g,h,i,j,k,l,m,n,o = 15 persons = 4 male 4 female = 1200pcs
-caerer = x = 1 person = female = 80pcs
+carer = x = 1 person = female = 80pcs
 young people expressing all emotions = from the KDEF db = 10 persons = 5 male 5 female = 70pcs
 random faces random emotions = AffectNet db = 27pcs
+
+
+36 images are rated as 9
+    5 of them are from AffectNet
+256 images are under the treshold 0.2
+    4 of them are from young people
+    1 of them is from AffectNet
+271 in total are excluded
+
+id  bad  good
+a   44   36
+b   42   38
+c   6    74
+d   22   58
+e   6    74
+f   1    79
+g   18   62
+h   2    78
+i   3    77
+j   7    73
+k   24   56
+l   28   52
+m   8    72
+n   32   48
+o   12   68
+x   7    73
