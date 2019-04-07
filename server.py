@@ -1,14 +1,17 @@
 import sqlite3
+import pymongo
 import random
 import json
 import time
 import os
-import sys
+import cv2
+import numpy
 import config
 from datetime import datetime
 from flask import Flask, request
 from flask_restful import Api, Resource, reqparse
 from flask_cors import CORS
+from bson.objectid import ObjectId
 
 
 app = Flask(__name__)
@@ -83,7 +86,7 @@ def get_random_face(cur, exclude=None):
     Returns a random face from database matching parameters
     :param cur: The Cursor object from database connection
     :param exclude: The id of face to be excluded from search
-    :return: Response as a string
+    :return: path to the selected face
     """
     count = config.COUNT_DATABASE
     if exclude:
@@ -109,28 +112,20 @@ class Face(Resource):
     def get(self):
         """
         Handling the GET request
-        :return:
+        :return: random image
         """
 
         conn = create_connection()
         with conn:
             cur = conn.cursor()
             data = get_random_face(cur)
-            # cur = conn.cursor()
-            # cur.execute("SELECT id, name FROM faces WHERE count=?", (self.count,))
-            # faces = [row for row in cur.fetchall()]
-            # while len(faces) == 0:
-            #     self.count += 1
-            #     cur.execute("SELECT id, name FROM faces WHERE count=?", (self.count,))
-            #     faces = [row for row in cur.fetchall()]
-            # image = random.choice(faces)
         log("Response: {}".format(data))
         return data, 200
 
     def put(self):
         """
         Handling the PUT request
-        :return:
+        :return: random image
         """
 
         data_bytes = request.data
@@ -153,7 +148,56 @@ class Face(Resource):
         return data, 200
 
 
+class Admin(Resource):
+
+    def __init__(self):
+        # make sure the mongod service is set correctly
+        self.client = pymongo.MongoClient('localhost', 27018)
+        self.db = self.client.faces_database
+
+    def get(self):
+        pass
+
+    def post(self):
+        r = request
+        post = {}
+        post["_id"] = ObjectId()
+        post["path"] = os.path.join("mongo_db", "data", str(post.get("_id")) + ".jpg")
+        post["original_image_name"] = request.files['image'].filename
+        post["name"] = request.form.get("name")
+        post["emotion"] = request.form.get("emotion")
+        post["include"] = request.form.get("include")
+        post["updated"] = datetime.utcnow()
+
+        self.db.posts.insert_one(post)
+
+        # read image file string data
+        filestr = request.files['image'].read()
+        # convert string data to numpy array
+        npimg = numpy.fromstring(filestr, numpy.uint8)
+        # convert numpy array to image
+        image = cv2.imdecode(npimg, cv2.IMREAD_COLOR)
+
+        cv2.imwrite(post["path"], image)
+
+        if post["include"] == "on":
+            with create_connection() as connection:
+                create_face(connection, (post["path"], "", 0))
+
+        return self._respond(post)
+
+    def _respond(self, post):
+        return {"id": str(post["_id"]),
+                "path": post["path"],
+                "original_image_name": post["original_image_name"],
+                "name": post["name"],
+                "emotion": post["emotion"],
+                "include": post["include"],
+                "updated": str(post["updated"])}
+
+
 api.add_resource(Face, '/face')
+api.add_resource(Admin, '/admin')
 
 if __name__ == '__main__':
     app.run()

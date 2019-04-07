@@ -203,19 +203,30 @@ Cállate y toma mi dinero!!!
 ¡Cásate conmigo!
 Último
 
+EMOTION	    ID
+anger       1
+contempt    2
+disgust     3
+fear        4
+joy         5
+neutral     6
+sadness     7
+surprise    8
+OTHER       9
+
 
 dataset of faces
 old people = a,b,c,d,e,f,g,h,i,j,k,l,m,n,o = 15 persons = 4 male 4 female = 1200pcs
 carer = x = 1 person = female = 80pcs
-young people expressing all emotions = from the KDEF db = 10 persons = 5 male 5 female = 70pcs
+young people expressing all emotions clearly = KDEF db = 10 persons = 5 male 5 female = 70pcs
 random faces random emotions = AffectNet db = 27pcs
 
 
-36 images are rated as 9
-    5 of them are from AffectNet
+36 images are rated as "other"
+    5 of them are from AffectNet db
 256 images are under the treshold 0.2
-    4 of them are from young people
-    1 of them is from AffectNet
+    4 of them are from young people (clear expresion of each emotions)
+    1 of them is from AffectNet db
 271 in total are excluded
 
 id  bad  good
@@ -235,3 +246,63 @@ m   8    72
 n   32   48
 o   12   68
 x   7    73
+
+
+Vypočítal som koeficient zhody hodnotiteľov pre každý jeden obrázok. 
+Použil som na to Fleiss' kappa metódu (len vzorec pre výpočet ako veľmi sa zhodli hodnotitelia na jendnej emócií pri jednom obrázku). 
+Zvolil som si (na základe vlastného pozorovania) hranicu koeficientu 0.2. 
+Následne som vybral len tie obrázky, kde koeficient bol vyšší ako 0.2 a výsledná emócia nebola "other". 
+Výsledná emócia zo všetkých hlasov pre daný obrázok je modus, najčastejšie vyskytujúca sa hodnota.
+Takto vyradených obrázkov je celkovo 271, z toho 256 je pod hranicou 0.2 a 36 označených ako "iné" (niektoré boli pod 0.2 a zároveň "iné").
+Písmena a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,x su označenia dôchodcov (x je opatrovateľka).
+Stĺpec "bad" hovorí, koľko obrázkov bolo pre ktorého dôchodcu vyradených, "good" hovorí opak (bad + good = 80).
+
+Hodnotitelia sa najmenej zhodli na obrázkach osoby a a najviac osoby f. 
+Keďže obrázky su vytiahnuté z vieda, mám 3 plány:
+	1. použiť len tie osoby, ktoré majú viac ako 60 dobrých obrázkov
+	2. nahradiť zlé obrázky takými obrázkami, ktoré su takmer totožné s tými dobrými (ručne, doplniť do počtu 80)
+	3. krok č. 2 spraviť automaticky, čím by sa zvýšil počet obrázkov na osobu z 80 na napríklad 200
+
+
+Admin:
+DB structure: id, created (no need bcs it is done in the ObjectId), path to the image, last update, name, emotion
+UI:
+  input: name, image
+  request: name
+
+
+import sqlite3
+import pymongo
+import random
+import json
+import time
+import os
+import sys
+import config
+from datetime import datetime
+from flask import Flask, request
+from flask_restful import Api, Resource, reqparse
+from flask_cors import CORS
+from bson.objectid import ObjectId
+
+def __create_post__(data):
+    post = {}
+    post["_id"] = ObjectId()
+    if "image" in data:
+        post["path"] = os.path.join("mongo_db", "data", str(post.get("_id")) + ".jpg")
+    else:
+        return {}
+    if "name" in data:
+        post["name"] = data.get("name")
+    else:
+        return {}
+    if "emotion" in data:
+        post["emotion"] = data.get("emotion")
+    post["updated"] = datetime.utcnow()
+    return post
+
+data = {"name": "Dominik", "image": "aaaa.jpg"}
+client = pymongo.MongoClient('localhost', 27018)
+db = client.test_database
+post = __create_post__(data)
+post_id = db.posts.insert_one(post).inserted_id
