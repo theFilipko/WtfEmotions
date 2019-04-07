@@ -1,0 +1,8 @@
+numpy
+opencv-python
+pysqlite3
+pymongo
+Flask
+Flask-RESTful
+Flask-CORS
+bson
